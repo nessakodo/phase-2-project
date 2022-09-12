@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Header() {
+export default function Container() {
 
-return (
+ return (
     <div>
 
     </div>
-    )}
+ )}

@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function Header() {
+export default function Profile() {
 
-return (
+
+ return (
     <div>
 
     </div>
-    )}
+ )}

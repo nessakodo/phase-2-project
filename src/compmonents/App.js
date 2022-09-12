@@ -1,44 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./NavBar"
+// import { NavLink } from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* insert header component here */}
       </header>
+      <div className="navigation">
+        <NavBar />
+
+          {/* <NavLink className="button" to="/about">
+            Profile
+          </NavLink>
+
+          <NavLink className="button" to="/about">
+            Forecast
+          </NavLink>
+
+          <NavLink className="button" to="/about">
+            Races
+          </NavLink> */}
+
+      </div>
     </div>
   );
 }
 
 export default App;
-
-
-// function App() {
-//   let currentPage;
-//   if (window.location.pathname === "/movies") {
-//     currentPage = <Movies />;
-//   } else if (window.location.pathname === "/about") {
-//     currentPage = <About />;
-//   } else {
-//     currentPage = <h2>404 not found</h2>;
-//   }
-
-//   return (
-//     <div>
-//       <h1>Movie Maker 3000</h1>
-//       {currentPage}
-//     </div>
-//   );
-// }
