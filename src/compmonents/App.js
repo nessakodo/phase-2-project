@@ -1,17 +1,20 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Container from ".Container";
 
 import "../index.css"
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* insert header component here */}
-      </header>
-      <div className="navigation">
+      <header className="navbar">
         <NavBar />
+      </header>
+
+      <div className="container">
+        <Container />
       </div>
+      
     </div>
   );
 }
