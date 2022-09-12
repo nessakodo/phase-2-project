@@ -113,13 +113,18 @@ You can make a .env.development and .env.production file to keep track of separa
 
 ```
 REACT_APP_API_URL=http://localhost:4000
-And a .env.production file with your deployed backend URL:
 ```
+
+And a .env.production file with your deployed backend URL:
+
 
 ```
 REACT_APP_API_URL=https://my-awesome-project.herokuapp.com
+```
+
 To use these environment variables in your code, you can access them at process.env.REACT_APP_VARIABLE_NAME:
 
+```
 fetch(`${process.env.REACT_APP_API_URL}/cats`)
   .then((r) => r.json())
   .then(setCats);
