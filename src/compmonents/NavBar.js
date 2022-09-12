@@ -11,6 +11,9 @@ export default function NavBar() {
   
     return (
       <nav className="navbar">
+        <a href="/home" onClick={navigate}>
+          Home
+        </a>
         <a href="/profile" onClick={navigate}>
           Profile
         </a>
