@@ -30,6 +30,8 @@ A user will be able to add cities to a rendered card list on the home page and v
 
 ![structure tree](src/assets/structure.png)
 
+
+
 ## Learning Goals
 
 [ ] - Build a React single page application from scratch
