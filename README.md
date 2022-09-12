@@ -7,11 +7,23 @@ Our application is intended to assist users who are interested in knowing what t
 
 ## User Stories
 A user will be able to see what they can wear based off of:
-Temperature
-Humidity
-Wind
-Precipitation
+<br>
+**Temperature**
+<br>
+**Humidity**
+<br>
+**Wind**
+<br>
+**Precipitation**
+<br>
 
+### Post Requirement
+
+A user will be able to input their name to create an account
+
+### Patch Requirement
+
+A user will be able to add cities to a rendered card list on the home page and view their weather conditions
 
 
 ## Wireframe
