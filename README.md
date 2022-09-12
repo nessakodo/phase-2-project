@@ -6,11 +6,18 @@ Our application is intended to assist users who are interested in knowing what t
 
 ## User Stories
 
-A user will be able to see what they can wear based off of:
-Temperature
-Humidity
-Wind
-Precipitation
+### A user will be able to...
+
+#### 1. See what they can wear based off of: Temperature, Humidity, Wind, and Precipitation
+
+#### 2. Refresh the page to see updated weather data without the input form opening up again 
+
+
+#### 3. Input their name and details to create an account (Post Requirement)
+
+
+#### 4. Add cities to a rendered card list on the home page and view their weather conditions (Patch Requirement)
+
 
 ## Wireframe
 
@@ -34,12 +41,13 @@ Precipitation
 
 ### Immediate Requirements
 
-[ ] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
-`<br>`
-[ ] - Create a list of user stories, this is just a statement about what your app will do.
-`<br>`
-[ ] - Create some wireframes for your web page.
 
+[✅] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
+<br>
+[✅] - Create a list of user stories, this is just a statement about what your app will do.
+<br>
+[✅] - Create some wireframes for your web page.
+<br>
 
 ### Secondary Requirements
 
@@ -54,3 +62,4 @@ Precipitation
 [ ] - Use a form to make your post request, specifically a controlled form/component. Additionally, you may choose to incorporate data from an external API but it is not required.
 `<br>`
 [ ] - Add some styling: you're encouraged to write your CSS from scratch, either by using styled components or writing CSS files and using id/className to style your elements.
+
