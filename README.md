@@ -30,11 +30,11 @@ Our application is intended to assist users who are interested in knowing what t
 ## Learning Goals
 
 [ ] - Build a React single page application from scratch
-`<br>`
+<br>
 [ ] - Apply your knowledge of components, props and state management
-`<br>`
+<br>
 [ ] - Incorporate client-side routing
-`<br>`
+<br>
 [ ] - Use data from an API
 
 ## Requirements
