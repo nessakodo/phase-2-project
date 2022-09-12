@@ -29,13 +29,16 @@ export default function App() {
 //         <div>
 //             <NavBar onChangePage={setPage} />
 //             <Switch>
-//                 <Route path="/about">
+//                 <Route path="/home">
+//                     <Home />
+//                 </Route>
+//                 <Route path="/profile">
 //                     <Profile />
 //                 </Route>
-//                 <Route path="/projects">
+//                 <Route path="/forecast">
 //                     <Forecast />
 //                 </Route>
-//                 <Route exact path="/">
+//                 <Route exact path="/races">
 //                     <Races />
 //                 </Route>
 //                 <Route path="*">
