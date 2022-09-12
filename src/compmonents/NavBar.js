@@ -21,7 +21,7 @@ export default function NavBar() {
           Profile
           <ProfilePage />
         </a>
-        <a href="/races" onClick={navigate}>
+        <a href="/about" onClick={navigate}>
           About
           <AboutPage />
         </a>
