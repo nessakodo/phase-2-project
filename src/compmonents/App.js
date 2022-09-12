@@ -4,18 +4,18 @@ import NavBar from "./NavBar";
 
 import "../index.css"
 
-const location = "denver"
-fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
-    .then(res => res.json())
-    .then(json => console.log(json))
-
 
 
 
 export default function App() {
 
-
   
+const location = "denver"
+fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
+    .then(res => res.json())
+    .then(json => console.log(json));
+
+
 
   return (
     <div className="App">
