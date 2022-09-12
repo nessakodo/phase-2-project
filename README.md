@@ -63,3 +63,9 @@ Our application is intended to assist users who are interested in knowing what t
 <br>
 [ ] - Add some styling: you're encouraged to write your CSS from scratch, either by using styled components or writing CSS files and using id/className to style your elements.
 
+### Current Workings
+
+[ ] - get client side routing to work
+[ ] - create input form on forecast page that takes in location data
+[ ] - create input form for profile page that takes in user data
+[ ] - create cards for homepage and way of patching watchlist cities
