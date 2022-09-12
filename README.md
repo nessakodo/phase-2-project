@@ -10,6 +10,24 @@ Lastly, add your pitch, user stories, and wireframe images to the readme files, 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+MVP: (Minimum Variable Product)
+User will be able to:
+       C 
+       R 
+       U 
+       D 
+ROUTE & PURPOSE
+1
+2
+3
+4…
+COMPONENTS
+COMPONENT 1
+COMPONENT 2
+3…
+Stretch goals:
+
 ## Available Scripts
 
 In the project directory, you can run:
