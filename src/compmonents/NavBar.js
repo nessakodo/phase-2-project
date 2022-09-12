@@ -1,5 +1,8 @@
 import React from 'react';
-
+import Home from "./Home";
+import Profile from "./Profile";
+import Forecast from "./Forecast";
+import Races from "./Races";
 
 export default function NavBar() {
     function navigate(e) {
@@ -13,15 +16,19 @@ export default function NavBar() {
       <nav className="navbar">
         <a href="/home" onClick={navigate}>
           Home
+          <Home />
         </a>
         <a href="/profile" onClick={navigate}>
           Profile
+          <Profile />
         </a>
         <a href="/forecast" onClick={navigate}>
-          Forecast
+            Forecast
+          <Forecast />
         </a>
         <a href="/races" onClick={navigate}>
           Races
+          <Races />
         </a>
       </nav>
     );
