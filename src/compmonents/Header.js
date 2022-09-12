@@ -1,10 +1,17 @@
 import React from "react";
 
-export default function Header() {
+function Header() {
+  return (
+    <header>
+      <h1>
+      What's The Weather Like Today? 
+      <br/>
+        <span className="logo" role="img">
+       🌄❄️☔🌞
+        </span>
+      </h1>
+    </header>
+  );
+}
 
-
- return (
-    <div>
-
-    </div>
- )}
+export default Header;
