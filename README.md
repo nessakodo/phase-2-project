@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
 
 Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
@@ -95,6 +95,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
+
+
+
+
+shelbs wuz here
+
+shelbes wuz here pt 2
+
+THIS IS A CHANGE and another
+
+and yet another
+
 Our Weather Project
->>>>>>> origin
+
