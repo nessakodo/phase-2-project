@@ -9,6 +9,8 @@ Our application is intended to assist users who are interested in knowing what t
 
 ## Wireframe
 
+![structure tree](src/assets/structure.png)
+
 ## Learning Goals
 
 [ ] - Build a React single page application from scratch
