@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function NavBar() {
     function navigate(e) {
       // don't make a GET request
@@ -22,3 +23,17 @@ export default function NavBar() {
       </nav>
     );
   }
+
+
+// import React from "react";
+// import { NavLink } from "react-router-dom"
+
+// export default function NavBar() {
+//     return (
+//         <nav>
+//             <NavLink exact to="profile/">Profile</NavLink>
+//             <NavLink to="/forecast">Forecast</NavLink>
+//             <NavLink to="/races">Races</NavLink>
+//         </nav>
+//     );
+// }
