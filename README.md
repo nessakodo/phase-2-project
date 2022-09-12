@@ -27,6 +27,8 @@ Our application is intended to assist users who are interested in knowing what t
 ![3](src/assets/3.png)
 ![4](src/assets/4.png)
 
+
+
 ## Learning Goals
 
 [ ] - Build a React single page application from scratch
