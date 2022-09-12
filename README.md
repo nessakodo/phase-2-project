@@ -11,10 +11,13 @@ Our application is intended to assist users who are interested in knowing what t
 
 See what they can wear based off of:
 
-**Temperature**
-**Humidity**
-**Wind**
-**Precipitation**
+Temperature
+<br>
+Humidity
+<br>
+Wind
+<br>
+Precipitation
 
 ### Post Requirement
 
