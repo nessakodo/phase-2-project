@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
@@ -9,6 +10,24 @@ Create some wireframes: https://www.interaction-design.org/literature/article/10
 Lastly, add your pitch, user stories, and wireframe images to the readme files, and have your repos ready for approval on Tuesday
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+MVP: (Minimum Variable Product)
+User will be able to:
+       C 
+       R 
+       U 
+       D 
+ROUTE & PURPOSE
+1
+2
+3
+4…
+COMPONENTS
+COMPONENT 1
+COMPONENT 2
+3…
+Stretch goals:
 
 ## Available Scripts
 
@@ -76,3 +95,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+Our Weather Project
+>>>>>>> origin
