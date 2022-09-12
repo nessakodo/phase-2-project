@@ -7,12 +7,8 @@ import "../index.css"
 const location = "denver"
 fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(json => console.log(json))
 
-const data = data
-console.log(data)
-
-  
 
 
 
