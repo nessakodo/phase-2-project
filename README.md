@@ -6,7 +6,11 @@
 Our application is intended to assist users who are interested in knowing what the proper apparel would be to wear outside given the current weather conditions according to their location and/or type of activity. 
 
 ## User Stories
-A user will be able to see what they can wear based off of:
+
+### A user will be able to...
+
+See what they can wear based off of:
+
 <br>
 **Temperature**
 <br>
