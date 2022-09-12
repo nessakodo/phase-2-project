@@ -18,7 +18,8 @@ export default function App() {
 
 
 // import React, { useState } from "react";
-// import { Switch, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
+// import Home from "./Home"
 // import NavBar from "./NavBar";
 // import Profile from "./Profile";
 // import Forecast from "./Forecast";
@@ -30,23 +31,27 @@ export default function App() {
 //     return (
 //         <div>
 //             <NavBar onChangePage={setPage} />
-//             <Switch>
+//             <Routes>
 //                 <Route path="/home">
+//                   Home
 //                     <Home />
 //                 </Route>
 //                 <Route path="/profile">
+//                   Profile
 //                     <Profile />
 //                 </Route>
 //                 <Route path="/forecast">
+//                   Forcast
 //                     <Forecast />
 //                 </Route>
 //                 <Route exact path="/races">
+//                   Races
 //                     <Races />
 //                 </Route>
 //                 <Route path="*">
 //                     <h1>404 not found</h1>
 //                 </Route>
-//             </Switch>
+//             </Routes>
 //         </div>
 //     );
 // }
