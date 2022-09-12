@@ -66,6 +66,9 @@ Our application is intended to assist users who are interested in knowing what t
 ### Current Workings
 
 [ ] - get client side routing to work
+<br>
 [ ] - create input form on forecast page that takes in location data
+<br>
 [ ] - create input form for profile page that takes in user data
+<br>
 [ ] - create cards for homepage and way of patching watchlist cities
