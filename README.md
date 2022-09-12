@@ -1,6 +1,6 @@
 # Weather Apparel App
 
-## Introduction
+## Introductory Pitch
 
 Our application is intended to assist users who are interested in knowing what the proper apparel would be to wear outside given the current weather conditions according to their location and/or route of activity.
 
