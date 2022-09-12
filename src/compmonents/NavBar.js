@@ -1,6 +1,6 @@
 import React from 'react';
 import HomePage from "./HomePage";
-import Profile from "./Profile";
+import ProfilePage from "./ProfilePage";
 import AboutPage from "./AboutPage";
 
 export default function NavBar() {
@@ -19,7 +19,7 @@ export default function NavBar() {
         </a>
         <a href="/profile" onClick={navigate}>
           Profile
-          <Profile />
+          <ProfilePage />
         </a>
         <a href="/races" onClick={navigate}>
           About

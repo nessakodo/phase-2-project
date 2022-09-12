@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CitiesPage() {
+export default function ProfilePage() {
 
 
  return (
