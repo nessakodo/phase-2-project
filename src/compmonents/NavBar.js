@@ -9,7 +9,7 @@ export default function NavBar() {
     }
   
     return (
-      <nav>
+      <nav className="navbar">
         <a href="/movies" onClick={navigate}>
           Profile
         </a>

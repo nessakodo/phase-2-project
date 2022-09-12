@@ -1,10 +1,9 @@
 import React from "react";
-import NavBar from "./NavBar"
-// import { NavLink } from "react-router-dom";
+import NavBar from "./NavBar";
 
+import "../index.css"
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -12,22 +11,8 @@ function App() {
       </header>
       <div className="navigation">
         <NavBar />
-
-          {/* <NavLink className="button" to="/about">
-            Profile
-          </NavLink>
-
-          <NavLink className="button" to="/about">
-            Forecast
-          </NavLink>
-
-          <NavLink className="button" to="/about">
-            Races
-          </NavLink> */}
-
       </div>
     </div>
   );
 }
 
-export default App;
