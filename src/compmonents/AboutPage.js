@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Races() {
+export default function AboutPage() {
 
 return (
     <div>
