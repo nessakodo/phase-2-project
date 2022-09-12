@@ -1,7 +1,7 @@
 
 # Weather Apparel App
 
-## Introduction
+## Introductory Pitch
 
 Our application is intended to assist users who are interested in knowing what the proper apparel would be to wear outside given the current weather conditions according to their location and/or type of activity. 
 
@@ -39,11 +39,11 @@ Our application is intended to assist users who are interested in knowing what t
 ### Immediate Requirements
 
 
-[ ] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
+[✅] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
 <br>
-[ ] - Create a list of user stories, this is just a statement about what your app will do.
+[✅] - Create a list of user stories, this is just a statement about what your app will do.
 <br>
-[ ] - Create some wireframes for your web page.
+[✅] - Create some wireframes for your web page.
 <br>
 
 ### Secondary Requirements
