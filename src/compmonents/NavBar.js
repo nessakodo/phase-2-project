@@ -11,13 +11,13 @@ export default function NavBar() {
   
     return (
       <nav className="navbar">
-        <a href="/movies" onClick={navigate}>
+        <a href="/profile" onClick={navigate}>
           Profile
         </a>
-        <a href="/about" onClick={navigate}>
+        <a href="/forecast" onClick={navigate}>
           Forecast
         </a>
-        <a href="/login" onClick={navigate}>
+        <a href="/races" onClick={navigate}>
           Races
         </a>
       </nav>
