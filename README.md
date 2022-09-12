@@ -21,7 +21,7 @@ Our application is intended to assist users who are interested in knowing what t
 
 ## Requirements
 
-Immediate Requirements
+### Immediate Requirements
 
 
 [ ] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
@@ -31,7 +31,7 @@ Immediate Requirements
 [ ] - Create some wireframes for your web page.
 <br>
 
-Secondary Requirements
+### Secondary Requirements
 
 [ ] - You must make a single page application (only one index.html file) using create-react-app.
 <br>
