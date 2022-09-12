@@ -11,10 +11,10 @@ Our application is intended to assist users who are interested in knowing what t
 
 #### 1. See what they can wear based off of: Temperature, Humidity, Wind, and Precipitation
 
-#### 2. Refresh the page to see updated weather data without form opening up again 
+#### 2. Refresh the page to see updated weather data without the input form opening up again 
 
 
-#### 3. Input their name to create an account (Post Requirement)
+#### 3. Input their name and details to create an account (Post Requirement)
 
 
 #### 4. Add cities to a rendered card list on the home page and view their weather conditions (Patch Requirement)
