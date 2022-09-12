@@ -9,25 +9,25 @@ Our application is intended to assist users who are interested in knowing what t
 
 ### A user will be able to...
 
-    #### See what they can wear based off of:
+#### See what they can wear based off of:
 
-    Temperature
-    <br>
-    Humidity
-    <br>
-    Wind
-    <br>
-    Precipitation
+Temperature
+<br>
+Humidity
+<br>
+Wind
+<br>
+Precipitation
 
-    #### Refresh the page to see updated weather data without form opening up
+#### Refresh the page to see updated weather data without form opening up
 
 ### Post Requirement
 
-    #### Input their name to create an account
+#### Input their name to create an account
 
 ### Patch Requirement
 
-    #### Add cities to a rendered card list on the home page and view their weather conditions
+#### Add cities to a rendered card list on the home page and view their weather conditions
 
 
 ## Wireframe
