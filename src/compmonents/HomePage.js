@@ -1,15 +1,8 @@
 import React from "react";
-import CitiesForm from "./CitiesForm"
-import CitiesList from "./CitiesList"
-// import ForecastPage from "./ForecastPage";
-
 
 export default function HomePage( {weather} ) {
    if (weather.currentConditions !== undefined) {
-      console.log(weather)
-
-   
-
+    console.log(weather)
       const weatherCard = (
          <div>
             <p>comment: {weather.currentConditions.comment} </p>
@@ -17,22 +10,16 @@ export default function HomePage( {weather} ) {
             <p>humidity: {weather.currentConditions.humidity}</p>
             <p>iconUrl: {weather.currentConditions.iconUrl}</p>
             <p>precip: {weather.currentConditions.precip}</p>
-
-
-            {/* <p>temp: {weather.current.currentConditions.temp.f}</p>
-            <p>wind: {weather.currentContitions.wind.mile}</p> */}
-
+            <p>temp: {weather.currentcurrentConditions}</p>
+            <p>wind: {weather.currentContitions}</p>
+            {/* <p>tomorrow: {weather.next_days[0]}</p> */}
          </div>
       )
 
       return (
          <div>
-            <CitiesForm />
-            <CitiesList />
             {weatherCard}
-   
             <h1>hello i am the home page</h1>
-   
          </div>
     )}
    
@@ -42,6 +29,5 @@ export default function HomePage( {weather} ) {
 
    )}
 
-   // console.log(currentTemp)
 
 
