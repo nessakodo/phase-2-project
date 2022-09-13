@@ -21,9 +21,8 @@ export default function HomePage( {weather} ) {
             <p>comment: {weather.currentConditions.comment} </p>
             <p>dayhour: {weather.currentConditions.dayhour} </p>
             <p>humidity: {weather.currentConditions.humidity}</p>
-
-         
             <p>precip: {weather.currentConditions.precip}</p>
+            
             <p>temp: {weather.currentConditions["temp"]["f"]}°F</p>
             <p>wind: {weather.currentConditions["wind"]["mile"]}mph </p>
 
