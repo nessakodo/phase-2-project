@@ -15,10 +15,15 @@ export default function HomePage( {weather} ) {
             <p>comment: {weather.currentConditions.comment} </p>
             <p>dayhour: {weather.currentConditions.dayhour} </p>
             <p>humidity: {weather.currentConditions.humidity}</p>
-            <p>iconUrl: {weather.currentConditions.iconUrl}</p>
+
+            <img 
+               src={weather.currentConditions.iconURL} 
+               alt={weather.currentConditions.comment} />
+
+
             <p>precip: {weather.currentConditions.precip}</p>
-            <p>temp: {weather.currentConditions["temp"]["f"]} </p>
-            <p>wind: {weather.currentConditions["wind"]["mile"]} </p>
+            <p>temp: {weather.currentConditions["temp"]["f"]}°F</p>
+            <p>wind: {weather.currentConditions["wind"]["mile"]}mph </p>
 
          </div>
       )
