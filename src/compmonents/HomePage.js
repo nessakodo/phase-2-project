@@ -17,10 +17,8 @@ export default function HomePage( {weather} ) {
             <p>humidity: {weather.currentConditions.humidity}</p>
             <p>iconUrl: {weather.currentConditions.iconUrl}</p>
             <p>precip: {weather.currentConditions.precip}</p>
-
-
-            {/* <p>temp: {weather.current.currentConditions["temp"].f}</p>
-            <p>wind: {weather.currentContitions["wind"].mile}</p> */}
+            <p>temp: {weather.currentConditions["temp"]["f"]} </p>
+            <p>wind: {weather.currentConditions["wind"]["mile"]} </p>
 
          </div>
       )
@@ -31,7 +29,7 @@ export default function HomePage( {weather} ) {
             <CitiesList />
             {weatherCard}
    
-            <h1>hello i am the home page</h1>
+            <h1>hello i am the home page!!!</h1>
    
          </div>
     )}
