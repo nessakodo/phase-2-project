@@ -30,10 +30,8 @@ const wind = weather.currentConditions["wind"]["mile"]
         return "T-shirt with shorts";
         } else if (temp > 60 && temp < 69) {
         return "Tank top or T-shirt with shorts"
-        } else if (temp > 70) {
-        return "Lightweight clothing, tank top, shorts"
         } else {
-        return "wear something else"
+        return "Lightweight clothing, tank top, shorts"
         }
     }
 
