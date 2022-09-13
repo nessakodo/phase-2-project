@@ -1,11 +1,9 @@
 import React from "react";
-import CitiesForm from "./CitiesForm"
-import CitiesList from "./CitiesList"
-import ForecastPage from "./ForecastPage";
+import ClothingLogic from "./ClothingLogic";
 
 
 
-export default function HomePage( {weather} ) {
+export default function RenderCard( {weather} ) {
    if (weather.currentConditions !== undefined) {
       console.log(weather)
 
@@ -21,7 +19,8 @@ console.log(temp)
       const weatherCard = (
 
 
-         <div>
+      <div>
+         <h2>City: {weather.region}</h2>
             <img 
                src={weather.currentConditions.iconURL} 
                alt={weather.currentConditions.comment} 
@@ -38,57 +37,26 @@ console.log(temp)
          </div>
       )
 
-      
-
-
-
-         // const clothingCard = (
-
-         //    <div>
-         //        <p>{weather.currentConditions["temp"]["f"] > 70 ? "wear a hat" : "wear shorts"}</p>
-         //    </div>
-
-
-
-
-         // )
-
       return (
          <div>
-            <CitiesForm />
-            <CitiesList />
             {weatherCard}
-            <h4>clothing card:</h4>
-            <ForecastPage 
+            <h4>Clothing Suggestion:</h4>
+            <ClothingLogic 
             weather={weather}
-            // temp={temp}
-            // comment={comment}
-            // dayhour={dayhour}
-            // humidity={humidity}
-            // precip={precip}
-            // wind={wind}
-            
             />
-         
-
-            {/* <h4>Clothing Suggestions</h4>
-            {clothingCard}
-    */}
-            <h1>hello i am the home page!!!</h1>
    
          </div>
-    )}
+    );
+   }
    
    
    return (
       <div>
-
-      
-      <p>loading...</p>
+         <p>loading...</p>
       </div>
+   );
+}
 
-   )}
 
-   // console.log(currentTemp)
 
 

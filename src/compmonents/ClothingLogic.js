@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function ForecastPage( { weather } ) {
+export default function ClothingLogic( { weather } ) {
 
 
 const comment = weather.currentConditions.comment
