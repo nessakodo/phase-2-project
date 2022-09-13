@@ -16,7 +16,7 @@ export default function HomePage( {weather} ) {
    const temp = parseInt(weather.currentConditions["temp"]["f"])
    const wind = weather.currentConditions["wind"]["mile"]
 
-
+console.log(temp)
 
       const weatherCard = (
 
@@ -59,7 +59,16 @@ export default function HomePage( {weather} ) {
             <CitiesList />
             {weatherCard}
             <h4>clothing card:</h4>
-            <ForecastPage weather={weather}/>
+            <ForecastPage 
+            weather={weather}
+            // temp={temp}
+            // comment={comment}
+            // dayhour={dayhour}
+            // humidity={humidity}
+            // precip={precip}
+            // wind={wind}
+            
+            />
          
 
             {/* <h4>Clothing Suggestions</h4>

@@ -3,9 +3,14 @@ import React from 'react'
 
 export default function ForecastPage( { weather } ) {
 
-const { temp } = weather
 
-console.log({temp})
+const comment = weather.currentConditions.comment
+const dayhour = weather.currentConditions.dayhour
+const humidity = weather.currentConditions.humidity
+const precip = weather.currentConditions.precip
+const temp = parseInt(weather.currentConditions["temp"]["f"])
+const wind = weather.currentConditions["wind"]["mile"]
+
     // comment , dayhour, humidity, precip, temp, wind 
 
 
