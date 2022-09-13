@@ -32,15 +32,13 @@ fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
 
 
 // import React, { useState } from "react";
-// import { Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Route} from "react-router-dom";
 // import Home from "./Home"
 // import NavBar from "./NavBar";
 // import Profile from "./Profile";
 // import Forecast from "./Forecast";
 // import Races from "./Races";
 
-// export default function App() {
-//     const [page, setPage] = useState("/")
     
 //     return (
 //         <div>

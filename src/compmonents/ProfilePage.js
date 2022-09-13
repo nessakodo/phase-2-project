@@ -7,5 +7,6 @@ export default function ProfilePage() {
  return (
     <div>
       <ProfileCard />
+      <h1>hello i am the profile page</h1>
     </div>
  )}

@@ -11,5 +11,7 @@ export default function HomePage() {
       <CitiesForm />
       <CitiesList />
 
+      <h1>hello i am the home page</h1>
+
     </div>
  )}
