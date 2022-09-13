@@ -19,8 +19,8 @@ export default function HomePage( {weather} ) {
             <p>precip: {weather.currentConditions.precip}</p>
 
 
-            {/* <p>temp: {weather.current.currentConditions.temp.f}</p>
-            <p>wind: {weather.currentContitions.wind.mile}</p> */}
+            {/* <p>temp: {weather.current.currentConditions["temp"].f}</p>
+            <p>wind: {weather.currentContitions["wind"].mile}</p> */}
 
          </div>
       )
