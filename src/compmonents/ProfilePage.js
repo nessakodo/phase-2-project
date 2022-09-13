@@ -1,12 +1,16 @@
-import React from "react";
+// import React, { useState } from "react";
+// import Login from "./Login"
 
+// export default function ProfilePage() {
 
-export default function ProfilePage() {
+//   const [ user, setUser ] = useState([]);
 
-
- return (
-    <div>
-
-      <h1>hello i am the profile page</h1>
-    </div>
- )}
+//   function handleAddUser(newUser) {
+//     setUser([...user, newUser])
+//   }
+//  return (
+//     <div>
+//       <Login onAddUser={handleAddUser}/>
+//       <h1>hello i am the profile page</h1>
+//     </div>
+//  )}
