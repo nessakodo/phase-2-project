@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 
 
 export default function CityForm({ onFreshCityDrama, onFreshCityListDrama }) {
-    const [freshCity, setfreshCity] = useState('')
+    const [freshCity, setFreshCity] = useState('')
     function handleChange(e) {
-        setfreshCity(e.target.value)
+        setFreshCity(e.target.value)
     }
     function handleFreshSubmit(e) {
         e.preventDefault()
