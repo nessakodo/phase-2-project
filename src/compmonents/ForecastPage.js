@@ -1,14 +1,41 @@
-import React from 'react'
+// import React from 'react'
 
-export default function ForecastPage({ currentWx }) {
+// export default function ForecastPage( { dayhour, humidity, precip, temp, wind }  ) {
 
-    // drop down selection for city you want
+    
+    
+//     // const { dayhour, humidity, precip, temp, wind } = weather
 
-    // let currentTemp = currentWx.currentConditions.temp.f
+//     // drop down selection for city you want
 
-    return(
-        <div>
-            {/* <p>{currentTemp}</p> */}
-        </div>
-    )
-}
+
+    
+
+//     return(
+//         <div>
+//             <li>
+//             <p>
+//                 {dayhour}
+//             </p>
+
+//             <p>
+//                 {humidity}
+//             </p>
+
+
+//             <p>
+//                 {precip}
+//             </p>
+
+//             <p>
+//                 {temp}
+//             </p>
+
+//             <p>
+//                 {wind}
+//             </p>
+//             </li>
+
+//         </div>
+//     )
+// }
