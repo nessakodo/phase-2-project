@@ -28,6 +28,3 @@ export default function HomePage( {weather} ) {
       <p>no data</p>
 
    )}
-
-
-
