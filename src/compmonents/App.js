@@ -1,14 +1,6 @@
-import createRoot from "react-dom/client";
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-
 import Header from "./Header"
 import NavBar from "./NavBar";
-
-import HomePage from "./HomePage";
-import ProfilePage from "./ProfilePage";
-import AboutPage from "./AboutPage";
 
 
 import "../index.css"
@@ -26,34 +18,16 @@ fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
 
 
 
-   return (
-      <BrowserRouter>
-
+  return (
     <div className="App">
       <header className="header">
         <Header />
-
-        
         <NavBar />
-            <Routes>
-            <Route exact path="/home">
-              <HomePage />
-            </Route>
-            <Route exact path="/about">
-              <AboutPage />
-            </Route>
-            <Route exact path="/profile">
-              <ProfilePage />
-            </Route>
-          </Routes>
       </header>
     </div>
-    </BrowserRouter>
   );
 }
 
-const root = createRoot(document.getElementById('root'));
-root.render(<App />);
 
 
 
