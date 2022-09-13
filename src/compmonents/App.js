@@ -1,20 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./Header"
 import NavBar from "./NavBar";
 
 import "../index.css"
+import HomePage from "./HomePage";
 
 
 
 
 export default function App() {
 
-  
+const [currentWx, setCurrentWx] = useState({})
+
 const location = "denver"
+useEffect(() => {
 fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
     .then(res => res.json())
-    .then(json => console.log(json));
-
+    .then((data) => {
+      setCurrentWx(data)
+  })
+},[])
 
 
   return (
@@ -23,6 +28,9 @@ fetch(` https://weatherdbi.herokuapp.com/data/weather/${location}`)
         <Header />
         <NavBar />
       </header>
+      <HomePage 
+        currentWx={currentWx}
+      />
     </div>
   );
 }
