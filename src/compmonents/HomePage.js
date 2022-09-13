@@ -2,29 +2,35 @@ import React from "react";
 
 export default function HomePage( {weather} ) {
    if (weather.currentConditions !== undefined) {
-    console.log(weather)
-      const weatherCard = (
+
+      //console.log(weather)
+
+      let weatherCard = (
          <div>
+            <img src={weather.currentConditions.iconURL} alt={"yeah dude"}/>
+            <h3>City: {weather.region}</h3>
             <p>comment: {weather.currentConditions.comment} </p>
-            <p>dayhour: {weather.currentConditions.dayhour} </p>
+            <p>Date: {weather.currentConditions.dayhour} </p>
             <p>humidity: {weather.currentConditions.humidity}</p>
-            <p>iconUrl: {weather.currentConditions.iconUrl}</p>
             <p>precip: {weather.currentConditions.precip}</p>
-            <p>temp: {weather.currentcurrentConditions}</p>
-            <p>wind: {weather.currentContitions}</p>
-            {/* <p>tomorrow: {weather.next_days[0]}</p> */}
+            <p>temp: {weather.currentConditions['temp']['f']} degrees F</p>
+            <p>wind: {weather.currentConditions['wind']['mile']} mph</p>
+            
          </div>
       )
 
       return (
          <div>
             {weatherCard}
-            <h1>hello i am the home page</h1>
          </div>
     )}
    
    
    return (
-      <p>no data</p>
+      <p>loading...</p>
 
    )}
+
+   // <p>temp: {weather.currentcurrentConditions}</p>
+   // <p>wind: {weather.currentContitions}</p>
+   // {/* <p>tomorrow: {weather.next_days[0]}</p> */}
