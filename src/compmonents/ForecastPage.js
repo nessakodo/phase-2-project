@@ -1,41 +1,22 @@
-// import React from 'react'
+import React from 'react'
 
-// export default function ForecastPage( { dayhour, humidity, precip, temp, wind }  ) {
+export default function ForecastPage( { comment , dayhour, humidity, precip, temp, wind } ) {
 
-    
-    
-//     // const { dayhour, humidity, precip, temp, wind } = weather
+    // comment , dayhour, humidity, precip, temp, wind 
+    function clothingCard () {
 
-//     // drop down selection for city you want
-
-
-    
-
-//     return(
-//         <div>
-//             <li>
-//             <p>
-//                 {dayhour}
-//             </p>
-
-//             <p>
-//                 {humidity}
-//             </p>
+     if  (temp > 60 && temp  < 69) {
+        return "try a tank top or t-shirt with shorts";
+        } else {
+        return "other"
+        }
+    }
 
 
-//             <p>
-//                 {precip}
-//             </p>
 
-//             <p>
-//                 {temp}
-//             </p>
-
-//             <p>
-//                 {wind}
-//             </p>
-//             </li>
-
-//         </div>
-//     )
-// }
+return (
+    <div>
+{clothingCard()}
+    </div>
+    );
+}
