@@ -29,8 +29,11 @@ const [ userData, setUserData ] = useState({
       })
         .then((r) => r.json())
         .then((newUser) => onAddUser(newUser));
+
     
         document.getElementById("login-form").reset();
+  
+    
   };
 
   //change port for what works on your terminal :)
@@ -46,6 +49,7 @@ const [ userData, setUserData ] = useState({
           onChange={handleChange}/>
         </label>
         <input type="submit" value="Login"/>
+        
       </form>
     </div>
   );
