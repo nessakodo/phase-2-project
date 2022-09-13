@@ -24,12 +24,3 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama }) {
     </div>
     )
 }
-
-
-
-
-
-
-
-
-
