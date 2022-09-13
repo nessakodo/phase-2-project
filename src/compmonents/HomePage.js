@@ -12,15 +12,17 @@ export default function HomePage( {weather} ) {
 
       const weatherCard = (
          <div>
-            <p>comment: {weather.currentConditions.comment} </p>
-            <p>dayhour: {weather.currentConditions.dayhour} </p>
-            <p>humidity: {weather.currentConditions.humidity}</p>
 
-            <img 
+<img 
                src={weather.currentConditions.iconURL} 
                alt={weather.currentConditions.comment} />
 
 
+            <p>comment: {weather.currentConditions.comment} </p>
+            <p>dayhour: {weather.currentConditions.dayhour} </p>
+            <p>humidity: {weather.currentConditions.humidity}</p>
+
+         
             <p>precip: {weather.currentConditions.precip}</p>
             <p>temp: {weather.currentConditions["temp"]["f"]}°F</p>
             <p>wind: {weather.currentConditions["wind"]["mile"]}mph </p>
@@ -41,7 +43,7 @@ export default function HomePage( {weather} ) {
    
    
    return (
-      <p>no data</p>
+      <p>loading...</p>
 
    )}
 
