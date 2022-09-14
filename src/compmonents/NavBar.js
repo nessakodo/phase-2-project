@@ -16,7 +16,7 @@ export default function NavBar() {
     return (
       <div>
         <NavLink
-          to="/home"
+          to="/"
           exact
           style={linkStyles}
           activeStyle={{
@@ -36,14 +36,14 @@ export default function NavBar() {
           About
         </NavLink>
         <NavLink
-          to="/login"
+          to="/profile"
           exact
           style={linkStyles}
           activeStyle={{
             background: "darkblue",
           }}
         >
-          Login
+          Profile
         </NavLink>
       </div>
     );

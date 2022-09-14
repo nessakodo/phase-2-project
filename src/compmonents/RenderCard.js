@@ -1,12 +1,8 @@
 import React, {useState} from "react";
 import ClothingLogic from "./ClothingLogic";
 
-
-
 export default function RenderCard( {weather} ) {
-   
    const [isClicked, setIsClicked] = useState(false)
-   
    if (weather.currentConditions !== undefined) {
    const comment = weather.currentConditions.comment
    const dayhour = weather.currentConditions.dayhour
@@ -16,28 +12,41 @@ export default function RenderCard( {weather} ) {
    const wind = weather.currentConditions["wind"]["mile"]
       const weatherCardFront = (
          <div>
-            <h2>City: {weather.region}</h2>
+            <h2>{weather.region}</h2>
+               <p>{dayhour} </p>
                <img
                   src={weather.currentConditions.iconURL}
                   alt={weather.currentConditions.comment}
                />
                <p>{comment} </p>
-               <p>{dayhour} </p>
-               <p>temp: {temp}°F</p>
+               <p>{temp}°F</p>
+               <p>Humidity: {humidity}</p>
+               <p>Chance of Precipitation: {precip}</p>
+               <p>Wind: {wind} mph </p>
+               {/* <button> View your recommended outfit! </button> */}
+               <hr></hr>
             </div>
       )
       const weatherCardBack = (
          <div>
-               <h4>Clothing Suggestion:</h4>
+               <h2>What should you wear for your run today?</h2>
                <ClothingLogic
                   weather={weather}
                />
-               <p>temp: {temp}°F</p>
-               <p>humidity: {humidity}</p>
-               <p>precip: {precip}</p>
-               <p>wind: {wind}mph </p>
-         </div>
-
+               <hr></hr>
+               <h2>{weather.region}</h2>
+               <p>{dayhour} </p>
+               <img
+                  src={weather.currentConditions.iconURL}
+                  alt={weather.currentConditions.comment}
+               />
+               <p>{comment} </p>
+               <p>{temp}°F</p>
+               <p>Humidity: {humidity}</p>
+               <p>Chance of Precipitation: {precip}</p>
+               <p>Wind: {wind} mph </p>
+               <hr></hr>
+            </div>
       )
       return (
          <div onClick={() => setIsClicked(!isClicked)}>
@@ -49,75 +58,6 @@ export default function RenderCard( {weather} ) {
       <></>
    );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, {useState} from "react";
-// import ClothingLogic from "./ClothingLogic";
-
-
-
-// export default function RenderCard( {weather} ) {
-//    const [isClicked, setIsClicked] = useState(false)
-//    if (weather.currentConditions !== undefined) {
-//    const comment = weather.currentConditions.comment
-//    const dayhour = weather.currentConditions.dayhour
-//    const humidity = weather.currentConditions.humidity
-//    const precip = weather.currentConditions.precip
-//    const temp = parseInt(weather.currentConditions["temp"]["f"])
-//    const wind = weather.currentConditions["wind"]["mile"]
-//       const weatherCardFront = (
-//          <div>
-//             <h2>City: {weather.region}</h2>
-//                <img
-//                   src={weather.currentConditions.iconURL}
-//                   alt={weather.currentConditions.comment}
-//                />
-//                <p>{comment} </p>
-//                <p>{dayhour} </p>
-//                <p>temp: {temp}°F</p>
-//             </div>
-//       )
-//       const weatherCardBack = (
-//          <div>
-//                <h4>Clothing Suggestion:</h4>
-//                <ClothingLogic
-//                   weather={weather}
-//                />
-//                <p>temp: {temp}°F</p>
-//                <p>humidity: {humidity}</p>
-//                <p>precip: {precip}</p>
-//                <p>wind: {wind}mph </p>
-//          </div>
-//       )
-//       return (
-//          <div onClick={() => setIsClicked(!isClicked)}>
-//             {isClicked ? weatherCardBack : weatherCardFront}
-//          </div>
-//     );
-//    }
-//    return (
-//       <div>
-//          <p>loading...</p>
-//       </div>
-//    );
-// }
-
-
-
-
-
 
 
 

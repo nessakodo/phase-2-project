@@ -1,15 +1,10 @@
-import React from "react";
-// import ReactDOM from "react-dom";
-import { render } from "react-dom";
-import CityForm from "./CityForm";
+import React from "react"
 import { Switch, Route } from "react-router-dom";
 
 import Header from "./Header";
 
-
-import AboutPage from "./AboutPage"
-import RenderCard from "./RenderCard";
 import WeatherCard from "./WeatherCard"
+import AboutPage from "./AboutPage"
 import ProfileCard from "./ProfileCard"
 
 import "../index.css"
@@ -17,23 +12,19 @@ import "../index.css"
 
 export default function App() {
 
-
-  
-
+ 
  return (
     
     <div>
       <Header />
       <Switch>
       <Route exact path="/">
-          <CityForm />
           <WeatherCard />
-          <RenderCard />
         </Route>
         <Route exact path="/about">
           <AboutPage />
         </Route>
-        <Route exact path="/login">
+        <Route exact path="/profile">
           <ProfileCard />
         </Route>
     

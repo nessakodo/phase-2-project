@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import Login from "./Login"
+import React from "react";
 import NavBar from "./NavBar";
-export default function Header() {
-const [ user, setUser ] = useState([]);
 
-  function handleAddUser(newUser) {
-    setUser([...user, newUser])
-  }
+export default function Header() {
+
 
   return (
     
@@ -15,13 +11,10 @@ const [ user, setUser ] = useState([]);
       <h1>
       What's The Weather Like Today? 
       <br/>
-        <span className="logo" role="img">
-       🌄❄️☔🌞
-        </span>
+        <span className="logo" role="img">🌄❄️☔🌞</span>
       </h1>
       <div>
       <NavBar />
-      <Login onAddUser={handleAddUser}/>
     </div>
     </header>
     </div>
