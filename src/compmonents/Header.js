@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Login from "./Login"
-
+import NavBar from "./NavBar";
 export default function Header() {
 const [ user, setUser ] = useState([]);
 
@@ -20,8 +20,8 @@ const [ user, setUser ] = useState([]);
         </span>
       </h1>
       <div>
+      <NavBar />
       <Login onAddUser={handleAddUser}/>
-      <h1>hello i am the profile page</h1>
     </div>
     </header>
     </div>
