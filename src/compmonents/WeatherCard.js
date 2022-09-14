@@ -17,11 +17,7 @@ export default function WeatherCard () {
    // most recent city that was searched
    const [ currentCity, setCurrentCity ] = useState('')
  
-   // all users
-   const [ users, setUsers ] = useState([]);
- 
-   // most recent user
-   const [currentUser, setCurrentUser ] = useState('')
+   
    
    useEffect(() => {
      fetch(`https://weatherdbi.herokuapp.com/data/weather/${currentCity}`)
@@ -40,12 +36,10 @@ export default function WeatherCard () {
           <div>
             <h2>Enter a City:</h2>
             <CityForm
-            //   onAddUser={(newUser)=>setUsers([...users, newUser])}
-            //   onCurrentUser={(newUser)=>setCurrentUser(newUser)}
-
+           
               onFreshCityListDrama={(freshCity)=>setCityList([...cityList, freshCity])}
               onFreshCityDrama={(freshCity) => setCurrentCity(freshCity)}
-              currentUser={currentUser}
+              // currentUser={currentUser}
               cityList={cityList}
             />
 

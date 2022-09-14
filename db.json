@@ -29,6 +29,7 @@
       "cities": []
     },
     {
+<<<<<<< HEAD
       "id": "George",
       "username": "George",
       "cities": []
@@ -148,6 +149,11 @@
         "denver",
         "seattle"
       ]
+=======
+      "id": "sam",
+      "username": "sam",
+      "cities": []
+>>>>>>> nessa
     }
   ]
 }
