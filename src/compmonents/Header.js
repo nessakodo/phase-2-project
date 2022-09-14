@@ -1,7 +1,8 @@
 import React from "react";
 import NavBar from "./NavBar";
 
-export default function Header() {
+export default function Header({ onAddUser, onCurrentUser }) {
+
 
 
   return (
@@ -20,4 +21,3 @@ export default function Header() {
     </div>
   );
 }
-
