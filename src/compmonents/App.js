@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Switch, Route } from "react-router-dom";
 
 import Header from "./Header";
@@ -11,6 +11,14 @@ import "../index.css"
 
 
 export default function App() {
+
+
+  // all users
+  const [ users, setUsers ] = useState([]);
+
+   // most recent user
+   const [currentUser, setCurrentUser ] = useState('')
+  
 
  
  return (
@@ -25,7 +33,10 @@ export default function App() {
           <AboutPage />
         </Route>
         <Route exact path="/profile">
-          <ProfileCard />
+          <ProfileCard 
+          onAddUser={(newUser)=>setUsers([...users, newUser])}
+          onCurrentUser={(newUser)=>setCurrentUser(newUser)}
+          currentUser={currentUser}/>
         </Route>
     
   </Switch>
