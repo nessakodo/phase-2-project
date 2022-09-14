@@ -4,7 +4,9 @@ import ClothingLogic from "./ClothingLogic";
 
 
 export default function RenderCard( {weather} ) {
+   
    const [isClicked, setIsClicked] = useState(false)
+   
    if (weather.currentConditions !== undefined) {
    const comment = weather.currentConditions.comment
    const dayhour = weather.currentConditions.dayhour
@@ -35,6 +37,7 @@ export default function RenderCard( {weather} ) {
                <p>precip: {precip}</p>
                <p>wind: {wind}mph </p>
          </div>
+
       )
       return (
          <div onClick={() => setIsClicked(!isClicked)}>
@@ -43,11 +46,10 @@ export default function RenderCard( {weather} ) {
     );
    }
    return (
-      <div>
-         <p>loading...</p>
-      </div>
+      <></>
    );
 }
+
 
 
 
