@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import Login from "./Login"
 
-export default function Header() {
-const [ user, setUser ] = useState([]);
-
-  function handleAddUser(newUser) {
-    setUser([...user, newUser])
-  }
+export default function Header({ onAddUser, onCurrentUser }) {
 
   return (
     
@@ -20,8 +15,10 @@ const [ user, setUser ] = useState([]);
         </span>
       </h1>
       <div>
-      <Login onAddUser={handleAddUser}/>
-      <h1>hello i am the profile page</h1>
+          <Login 
+            onAddUser={onAddUser}
+            onCurrentUser={onCurrentUser} 
+          />
     </div>
     </header>
     </div>
