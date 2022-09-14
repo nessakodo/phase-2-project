@@ -35,29 +35,12 @@ export default function RenderCard( {weather} ) {
                <ClothingLogic
                   weather={weather}
                />
-<<<<<<< HEAD
                <p>temp: {temp}°F</p>
                <p>humidity: {humidity}</p>
                <p>precip: {precip}</p>
                <p>wind: {wind}mph </p>
          </div>
 
-=======
-               <hr></hr>
-               <h2>{weather.region}</h2>
-               <p>{dayhour} </p>
-               <img
-                  src={weather.currentConditions.iconURL}
-                  alt={weather.currentConditions.comment}
-               />
-               <p>{comment} </p>
-               <p>{temp}°F</p>
-               <p>Humidity: {humidity}</p>
-               <p>Chance of Precipitation: {precip}</p>
-               <p>Wind: {wind} mph </p>
-               <hr></hr>
-            </div>
->>>>>>> nessa
       )
       return (
          <div onClick={() => setIsClicked(!isClicked)}>
@@ -76,12 +59,9 @@ export default function RenderCard( {weather} ) {
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> nessa
