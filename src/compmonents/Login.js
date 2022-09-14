@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {v4 as uuid} from "uuid";
+// import {v4 as uuid} from "uuid";
 
 export default function Login({onAddUser} ) {
 const [ userData, setUserData ] = useState({
@@ -17,7 +17,7 @@ const [ userData, setUserData ] = useState({
   function handleSubmit(e) {
     e.preventDefault();
     const newUser = {
-      id: uuid(),
+      // id: uuid(),
       username: userData.username,
       cities: [userData.cities],
       }

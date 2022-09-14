@@ -48,8 +48,8 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
         
         })
 
-        // document.getElementById('freshCityForm').reset()
-        e.target.reset()
+        document.getElementById('freshCityForm').reset()
+ 
     }
 
     return (

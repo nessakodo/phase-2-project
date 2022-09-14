@@ -6,7 +6,41 @@
       "cities": [
         "anacortes"
       ]
-    }
-
+    },
+    {
+      "id": "9eccece2-2760-413b-b7fc-7639e3a96bb0",
+      "username": "person",
+      "cities": [
+        []
       ]
+    },
+    {
+      "id": "27ee89a9-6c87-44c4-96a9-019e8e24178a",
+      "username": "shelby",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "id": [],
+      "username": "lauren",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "id": "a309678b-5112-4427-9953-5fdd95ad0cd8",
+      "username": "sam",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "username": "me",
+      "cities": [
+        []
+      ],
+      "id": "zS7KXwA"
     }
+  ]
+}
