@@ -30,6 +30,8 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
                 onFreshCityDrama(freshCity.toLowerCase())
                 onFreshCityListDrama(freshCity)
 
+                console.log(currentUser)
+
                 const thisUser = currentUser.id
 
                 fetch(`http://localhost:4000/users/${thisUser}`, {

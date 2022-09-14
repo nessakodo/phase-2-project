@@ -1,9 +1,153 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "shleebs",
       "username": "shleebs",
+      "cities": [
+        "anacortes"
+      ]
+    },
+    {
+      "id": "shelby",
+      "username": "shelby",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "id": "edwardo",
+      "username": "edwardo"
+    },
+    {
+      "id": "theodore",
+      "username": "theodore",
+      "cities": null
+    },
+    {
+      "id": "bobby",
+      "username": "bobby",
       "cities": []
+    },
+    {
+      "id": "George",
+      "username": "George",
+      "cities": []
+    },
+    {
+      "id": "Xan",
+      "username": "Xan",
+      "cities": []
+    },
+    {
+      "id": "slee337",
+      "username": "slee337",
+      "cities": []
+    },
+    {
+      "id": "shleebles",
+      "username": "shleebles",
+      "cities": []
+    },
+    {
+      "id": "todd",
+      "username": "todd",
+      "cities": []
+    },
+    {
+      "id": "fuck",
+      "username": "fuck",
+      "cities": []
+    },
+    {
+      "id": "dude",
+      "username": "dude",
+      "cities": []
+    },
+    {
+      "id": "doooode",
+      "username": "doooode",
+      "cities": []
+    },
+    {
+      "id": "pa",
+      "username": "pa",
+      "cities": "dallas"
+    },
+    {
+      "id": "hope",
+      "username": "hope",
+      "cities": [
+        "Seattle",
+        "Denver",
+        "Dallas",
+        "Moscow",
+        "Bob"
+      ]
+    },
+    {
+      "id": "Dudette",
+      "username": "Dudette",
+      "cities": [
+        "Bob",
+        "taiwan",
+        "norway"
+      ]
+    },
+    {
+      "id": "another tester",
+      "username": "another tester",
+      "cities": [
+        "denver",
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "bob",
+      "username": "bob",
+      "cities": []
+    },
+    {
+      "id": "b",
+      "username": "b",
+      "cities": [
+        "denver",
+        "dallas",
+        "seattle"
+      ]
+    },
+    {
+      "username": "Tallulah",
+      "cities": [
+        []
+      ],
+      "id": "3C6sVva"
+    },
+    {
+      "id": "fuckkkkkk",
+      "username": "fuckkkkkk",
+      "cities": []
+    },
+    {
+      "id": "nanacy",
+      "username": "nanacy",
+      "cities": []
+    },
+    {
+      "id": "damian",
+      "username": "damian",
+      "cities": [
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "please work",
+      "username": "please work",
+      "cities": [
+        "denver",
+        "seattle"
+      ]
     }
   ]
 }
