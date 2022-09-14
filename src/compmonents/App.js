@@ -1,12 +1,17 @@
-import React, { useState, useEffect } from "react";
-import {v4 as uuid} from "uuid";
+import React from "react"
+import { Switch, Route } from "react-router-dom";
+
 import Header from "./Header";
-import RenderCard from "./RenderCard";
+
+import WeatherCard from "./WeatherCard"
+import AboutPage from "./AboutPage"
+import ProfileCard from "./ProfileCard"
+
 import "../index.css"
-import CityForm from "./CityForm";
 
 
 export default function App() {
+<<<<<<< HEAD
   
   // wx data for one city
   const [ weatherData, setWeatherData ] = useState({});
@@ -68,3 +73,27 @@ export default function App() {
 
 
 
+=======
+
+ 
+ return (
+    
+    <div>
+      <Header />
+      <Switch>
+      <Route exact path="/">
+          <WeatherCard />
+        </Route>
+        <Route exact path="/about">
+          <AboutPage />
+        </Route>
+        <Route exact path="/profile">
+          <ProfileCard />
+        </Route>
+    
+  </Switch>
+  </div>
+  
+  );
+}
+>>>>>>> nessa
