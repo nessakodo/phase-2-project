@@ -24,4 +24,3 @@ export default function Header({ onAddUser, onCurrentUser }) {
     </div>
   );
 }
-

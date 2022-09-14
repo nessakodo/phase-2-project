@@ -115,6 +115,53 @@
         "dallas",
         "seattle"
       ]
+    },
+    {
+      "username": "Tallulah",
+      "cities": [
+        []
+      ],
+      "id": "3C6sVva"
+    },
+    {
+      "id": "fuckkkkkk",
+      "username": "fuckkkkkk",
+      "cities": []
+    },
+    {
+      "id": "nanacy",
+      "username": "nanacy",
+      "cities": []
+    },
+    {
+      "id": "damian",
+      "username": "damian",
+      "cities": [
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "please work",
+      "username": "please work",
+      "cities": [
+        "denver",
+        "seattle"
+      ]
+    },
+    {
+      "id": "bobbio",
+      "username": "bobbio",
+      "cities": [
+        "seattle",
+        "denver",
+        "dallas"
+      ]
+    },
+    {
+      "id": "bobbioroni",
+      "username": "bobbioroni",
+      "cities": []
     }
   ]
 }

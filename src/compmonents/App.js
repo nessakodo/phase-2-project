@@ -4,6 +4,7 @@ import Header from "./Header";
 import RenderCard from "./RenderCard";
 import "../index.css"
 import CityForm from "./CityForm";
+import AboutPage from "./AboutPage";
 
 
 export default function App() {
@@ -25,15 +26,12 @@ export default function App() {
 
   // most recent user
   const [currentUser, setCurrentUser ] = useState('')
-
-  // true if the current city is valid or not
-  const [cityIsValid, setCityIsValid] = useState(true)
   
   useEffect(() => {
     fetch(`https://weatherdbi.herokuapp.com/data/weather/${currentCity}`)
         .then(res => res.json())
         .then(setWeatherData)
-    }, [currentCity]);
+    }, [currentCity])
 
   useEffect(() => {
     setAllWxData([...allWxData, weatherData])
@@ -49,6 +47,7 @@ export default function App() {
           onAddUser={(newUser)=>setUsers([...users, newUser])}
           onCurrentUser={(newUser)=>setCurrentUser(newUser)}
         />
+        <AboutPage/>
           <div>
             <h2>Enter a City:</h2>
             <CityForm
