@@ -36,10 +36,8 @@ export default function WeatherCard () {
           <div>
             <h2>Enter a City:</h2>
             <CityForm
-           
               onFreshCityListDrama={(freshCity)=>setCityList([...cityList, freshCity])}
               onFreshCityDrama={(freshCity) => setCurrentCity(freshCity)}
-              // currentUser={currentUser}
               cityList={cityList}
             />
 

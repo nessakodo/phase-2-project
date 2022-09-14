@@ -9,6 +9,37 @@
       "id": "sam",
       "username": "sam",
       "cities": []
+    },
+    {
+      "id": "ben",
+      "username": "ben",
+      "cities": []
+    },
+    {
+      "id": "stephen",
+      "username": "stephen",
+      "cities": []
+    },
+    {
+      "username": "me",
+      "cities": [
+        []
+      ],
+      "id": 2
+    },
+    {
+      "id": "fb55a9da-63db-4f04-9e74-f5e3d9e8ca95",
+      "username": "rachel",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "id": "26ea9a8d-72d9-465a-8047-7513fecf8f4c",
+      "username": "george",
+      "cities": [
+        []
+      ]
     }
   ]
 }
