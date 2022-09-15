@@ -7,6 +7,9 @@ export default function CityForm({onFreshCityDrama}) {
     // state variable to keep track of city being inputted
     const [freshCity, setFreshCity] = useState('')
 
+    // state variable to be one behind freshCity
+    const [thisCity, setThisCity] = useState('')
+
     // true if the current city is valid or not
     const [cityIsValid, setCityIsValid] = useState(true)
 
@@ -28,12 +31,28 @@ export default function CityForm({onFreshCityDrama}) {
                 onFreshCityDrama(formattedCity)
             } else {
                 setCityIsValid(false)
+                setThisCity(freshCity)
             }
         })
 
         document.getElementById('freshCityForm').reset()
     }
 
+//     return (
+//     <div>
+//         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
+//             <label>
+//                 <input type="text" name="name" onChange={handleChange} />
+//             </label>
+//             <input type="submit" value="Submit"/>
+//         </form>
+//         {cityIsValid ? 
+//             null : 
+//             <p>{thisCity} is Not a Valid Input, Please Try Again!</p>
+//         }
+//     </div>
+//     )
+// }
 
     return (
     <div id="form-container">
