@@ -35,7 +35,7 @@ export default function UserCityCollection({ currentUser, cityList }) {
                 />
             )
         :
-        <p>head over to the profile page to add cities to your account!</p>
+        <h2>head over to the profile page to add cities to your account!</h2>
         }
         </div>
     )

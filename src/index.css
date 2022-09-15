@@ -2,9 +2,9 @@
 
 body {
   margin: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-bottom: 9rem;
   font-family:'Poppins',
     sans-serif;
   text-align: center;
@@ -52,7 +52,7 @@ border: none;
 
 }
 
-.running-image {
+.running-image img {
   height: 400px;
   width: 500px;
 }
