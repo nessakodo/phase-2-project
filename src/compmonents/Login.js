@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import check from "../assets/check-circle.svg"
+import check from "../assets/check-circle.svg";
+
 
 export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
 
@@ -51,21 +52,17 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
         document.getElementById("login-form").reset();
   };
 
-
-
-
-  // change port for what works on your terminal :)
-
   return (
-    <div id="form-container">
+    <div>
 
-  {loginError ? 
-    <h2>Username Already Taken, Please Submit a Different One!</h2> 
-  : <h2>Please Enter Username to Login and Save Cities!</h2>
-  }
+      {loginError ? 
+        <h2>Username Already Taken, Please Submit a Different One!</h2>
+      : 
+        <h2>Please Enter Username to Login and Save Cities!</h2>
+      }
       <form onSubmit={handleSubmit}  id="login-form">
         <label>
-          <input type="text" name="username" onChange={handleChange} className="input-text"/>
+          <input type="text" name="username" onChange={handleChange} className="input-text" placeholder="username"/>
         </label>
         <button type="submit" className="submit">
           <img src={check}/>
