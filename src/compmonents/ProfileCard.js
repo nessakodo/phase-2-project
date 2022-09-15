@@ -7,15 +7,15 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
 
     const thisUser = currentUser.id
 
-    const [cityFormatted, setCityFormatted] = useState("")
+    //const [cityFormatted, setCityFormatted] = useState("")
 
-    function handleNewCity(freshCity) {
-        onAddUserCities(freshCity)
+    function handleNewCity(formattedCity) {
+        onAddUserCities(formattedCity)
             fetch(`http://localhost:4000/users/${thisUser}`, {
                 method: 'PATCH',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
-                    cities: [...cityList, freshCity]
+                    cities: [...cityList, formattedCity]
                 })
             })
     }
@@ -24,13 +24,13 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
     <div>
         {hasLoggedIn ?
         <div>
-            <p>Welcome, {thisUser}!</p>
+            <h1>Welcome, {thisUser}!</h1>
             <p>Add Your Favorite Cities:</p>
             <CityForm
-                onCityFormatSet={(formattedCity) => setCityFormatted(formattedCity)}
-                onFreshCityDrama={(freshCity) => handleNewCity(freshCity)}
+                //onCityFormatSet={(formattedCity) => setCityFormatted(formattedCity)}
+                onFreshCityDrama={(formattedCity) => handleNewCity(formattedCity)}
             />
-            <p>Your Favorite Cities:</p>
+            <h2>Your Favorite Cities:</h2>
             {cityList.map((eachCity) => 
                 <div key={uuid()}>
                     <p>{eachCity}</p>

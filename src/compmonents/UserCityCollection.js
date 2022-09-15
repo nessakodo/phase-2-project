@@ -5,25 +5,39 @@ import {v4 as uuid} from "uuid";
 // renders all of the city cards of those cities
 // has search bar
 
-export default function UserCityCollection({ currentUser, cityList }) {
+export default function UserCityCollection({cityList }) {
 
     // wx data for all searched locations
-    const [ allWxData, setAllWxData] = useState([])
-
-    // // wx data for one city
-    // const [ weatherData, setWeatherData ] = useState({});
+    const [ allWxData, setAllWxData ] = useState([])
 
     if (cityList) {
-        useEffect(() => {
-            console.log(`wx before map: ${allWxData}`)
-            cityList.map((eachCity) =>
+        cityList.map((eachCity) => {
+            useEffect(() => {
+                console.log(eachCity)
                 fetch(`https://weatherdbi.herokuapp.com/data/weather/${eachCity}`)
-                    .then(res => res.json())
-                    .then(data => setAllWxData([...allWxData, data]))
-            )
-        },[])
-        console.log(allWxData)
+                .then(res => res.json())
+                .then(data => setAllWxData(allWxData=>[...allWxData, data]))
+            },[])
+        })
     }
+
+        // useEffect(() => {
+        //     console.log(`wx before map: ${allWxData}`)
+        //     cityList.map((eachCity) =>
+        //         fetch(`https://weatherdbi.herokuapp.com/data/weather/${eachCity}`)
+        //             .then(res => res.json())
+        //             .then(data => {
+        //                 console.log(data)
+        //                 setAllWxData(allWxData=>[...allWxData, data])
+        //                 setTimeout(() => console.log(allWxData), 2000)
+                    
+        //             })
+
+        //     )
+        // },[])
+        // console.log(allWxData)
+
+    
 
     return (
         <div>
@@ -46,3 +60,4 @@ export default function UserCityCollection({ currentUser, cityList }) {
     // useEffect(() => {
     //     setAllWxData([...allWxData, weatherData])
     // }, [weatherData]);
+

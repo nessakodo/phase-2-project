@@ -10,22 +10,22 @@ export default function CityForm({onFreshCityDrama}) {
     // true if the current city is valid or not
     const [cityIsValid, setCityIsValid] = useState(true)
 
-    let thisCity
-    
+    let formattedCity
+
     function handleChange(e) {
         setFreshCity(e.target.value)
     }
 
     function handleFreshSubmit(e) {
         e.preventDefault()
-        thisCity = freshCity
 
         fetch(`https://weatherdbi.herokuapp.com/data/weather/${freshCity}`)
         .then(res => res.json())
         .then (data => {
             if (data.region) {
+                formattedCity = data.region
                 setCityIsValid(true)
-                onFreshCityDrama(freshCity.toLowerCase())
+                onFreshCityDrama(formattedCity)
             } else {
                 setCityIsValid(false)
             }
@@ -47,7 +47,7 @@ export default function CityForm({onFreshCityDrama}) {
         </form>
         {cityIsValid ? 
             null : 
-            <p>Not a Valid Input, Please Try Again!</p>
+            <p>{freshCity} is Not a Valid Input, Please Try Again!</p>
         }
     </div>
     )
