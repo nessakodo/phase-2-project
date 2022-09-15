@@ -53,7 +53,6 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
     <div>
         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
             <label>
-                City:
                 <input type="text" name="name" onChange={handleChange} />
             </label>
             <input type="submit" value="Submit"/>
@@ -65,5 +64,4 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
     </div>
     )
 }
-
 

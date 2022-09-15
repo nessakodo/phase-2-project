@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import ClothingLogic from "./ClothingLogic";
 
-
-
 export default function RenderCard( {weather} ) {
    
    const [isClicked, setIsClicked] = useState(false)
@@ -16,19 +14,24 @@ export default function RenderCard( {weather} ) {
    const wind = weather.currentConditions["wind"]["mile"]
       const weatherCardFront = (
          <div>
-            <h2>City: {weather.region}</h2>
+            <h2>{weather.region}</h2>
+               <p>{dayhour} </p>
                <img
                   src={weather.currentConditions.iconURL}
                   alt={weather.currentConditions.comment}
                />
                <p>{comment} </p>
-               <p>{dayhour} </p>
-               <p>temp: {temp}°F</p>
+               <p>{temp}°F</p>
+               <p>Humidity: {humidity}</p>
+               <p>Chance of Precipitation: {precip}</p>
+               <p>Wind: {wind} mph </p>
+               <button> View your recommended outfit</button>
+               <hr></hr>
             </div>
       )
       const weatherCardBack = (
          <div>
-               <h4>Clothing Suggestion:</h4>
+               <h2>What should you wear for your run today?</h2>
                <ClothingLogic
                   weather={weather}
                />
@@ -36,6 +39,7 @@ export default function RenderCard( {weather} ) {
                <p>humidity: {humidity}</p>
                <p>precip: {precip}</p>
                <p>wind: {wind}mph </p>
+               <button> View the current weather conditions</button>
          </div>
 
       )

@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import Login from "./Login"
+import React from "react";
+import NavBar from "./NavBar";
 
 export default function Header({ onAddUser, onCurrentUser }) {
+
+
 
   return (
     
@@ -10,15 +12,10 @@ export default function Header({ onAddUser, onCurrentUser }) {
       <h1>
       What's The Weather Like Today? 
       <br/>
-        <span className="logo" role="img">
-       🌄❄️☔🌞
-        </span>
+        <span className="logo" role="img">🌄❄️☔🌞</span>
       </h1>
       <div>
-          <Login 
-            onAddUser={onAddUser}
-            onCurrentUser={onCurrentUser} 
-          />
+      <NavBar />
     </div>
     </header>
     </div>
