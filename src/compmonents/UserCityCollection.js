@@ -21,16 +21,18 @@ export default function UserCityCollection({cityList }) {
     }
 
     return (
-        <div>
+        <div className="city-list">
         {cityList.length >= 1 ? 
             allWxData.map((eachCity) =>
+            <p>
                 <RenderCard
                     key={uuid()}
                     weather={eachCity}
                 />
+                </p>
             )
         :
-        <p>head over to the profile page to add cities to your account!</p>
+        <h2>head over to the profile page to add cities to your account!</h2>
         }
         </div>
     )
