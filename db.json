@@ -41,6 +41,16 @@
         []
       ],
       "id": "zS7KXwA"
+    },
+    {
+      "id": "you",
+      "username": "you",
+      "cities": []
+    },
+    {
+      "id": "me",
+      "username": "me",
+      "cities": []
     }
   ]
 }

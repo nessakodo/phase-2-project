@@ -30,8 +30,6 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
                 onFreshCityDrama(freshCity.toLowerCase())
                 onFreshCityListDrama(freshCity)
 
-                console.log(currentUser)
-
                 const thisUser = currentUser.id
 
                 fetch(`http://localhost:4000/users/${thisUser}`, {
@@ -49,13 +47,13 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
         })
 
         document.getElementById('freshCityForm').reset()
- 
     }
 
     return (
     <div>
         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
             <label>
+                City:
                 <input type="text" name="name" onChange={handleChange} />
             </label>
             <input type="submit" value="Submit"/>
@@ -67,3 +65,4 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
     </div>
     )
 }
+

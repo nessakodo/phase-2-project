@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-// import {v4 as uuid} from "uuid";
 
-export default function Login({onAddUser} ) {
-const [ userData, setUserData ] = useState({
-  id: [],
-  username: '',
-  cities: [],
-});
+
+export default function Login({onAddUser, onCurrentUser} ) {
+
+  const [ userData, setUserData ] = useState({
+    username: '',
+    cities: [],
+  });
 
   function handleChange(e) {
     setUserData({
@@ -16,11 +16,14 @@ const [ userData, setUserData ] = useState({
 
   function handleSubmit(e) {
     e.preventDefault();
+
     const newUser = {
-      // id: uuid(),
+      id: userData.username,
       username: userData.username,
-      cities: [userData.cities],
+      cities: []
       }
+
+      onCurrentUser(newUser)
 
       fetch("http://localhost:4000/users", {
         method: "POST",
@@ -32,17 +35,18 @@ const [ userData, setUserData ] = useState({
         .then((r) => r.json())
         .then((newUser) => onAddUser(newUser));
 
+        // need to add catch for if username is already taken
+
     
         document.getElementById("login-form").reset();
-  
-    
+
   };
 
   //change port for what works on your terminal :)
 
   return (
     <div>
-      <h1>Login</h1>
+      <h2>Please Enter Your Name to Login:</h2>
       <form id="login-form" onSubmit={handleSubmit}>
         <label>
           <input 
@@ -50,8 +54,7 @@ const [ userData, setUserData ] = useState({
           name="username" 
           onChange={handleChange}/>
         </label>
-        <input type="submit" value="Login"/>
-        
+        <input type="submit" value="Login" />
       </form>
     </div>
   );
