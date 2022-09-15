@@ -45,17 +45,17 @@ export default function Login({onAddUser, onCurrentUser} ) {
   //change port for what works on your terminal :)
 
   return (
-    <div>
+    <div id="form-container">
       <h2>Please Enter Your Name to Login:</h2>
-      <form id="login-form" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}  id="login-form">
         <label>
-          <input 
-          type="text" 
-          name="username" 
-          onChange={handleChange}/>
+          <input type="text" name="username" onChange={handleChange} className="input-text"/>
         </label>
-        <input type="submit" value="Login" />
-      </form>
+        <img type="submit" value="" className="submit"/>
+      </form>{!null ? 
+            null : 
+            <p>Not a Valid Input, Please Try Again!</p>
+        }
     </div>
   );
 }

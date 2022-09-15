@@ -13,7 +13,7 @@ export default function RenderCard( {weather} ) {
    const temp = parseInt(weather.currentConditions["temp"]["f"])
    const wind = weather.currentConditions["wind"]["mile"]
       const weatherCardFront = (
-         <div>
+         <div className="weatherCardFront">
             <h2>{weather.region}</h2>
                <p>{dayhour} </p>
                <img
@@ -30,7 +30,7 @@ export default function RenderCard( {weather} ) {
             </div>
       )
       const weatherCardBack = (
-         <div>
+         <div className="weatherCardBack">
                <h2>What should you wear for your run today?</h2>
                <ClothingLogic
                   weather={weather}

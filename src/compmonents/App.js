@@ -40,7 +40,6 @@ export default function App() {
           />
         <Route exact path="/cities"></Route>
         <UserCityCollection />
-
         </Route>
     
   </Switch>

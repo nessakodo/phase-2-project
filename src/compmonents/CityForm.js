@@ -50,12 +50,12 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
     }
 
     return (
-    <div>
+    <div id="form-container">
         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
             <label>
-                <input type="text" name="name" onChange={handleChange} />
+                <input type="text" name="name" onChange={handleChange} className="input-text"/>
             </label>
-            <input type="submit" value="Submit"/>
+            <img type="submit" value="" className="submit"/>
         </form>
         {cityIsValid ? 
             null : 
