@@ -8,84 +8,341 @@
       ]
     },
     {
-      "id": "9eccece2-2760-413b-b7fc-7639e3a96bb0",
-      "username": "person",
-      "cities": [
-        []
-      ]
-    },
-    {
-      "id": "27ee89a9-6c87-44c4-96a9-019e8e24178a",
-      "username": "shelby",
-      "cities": [
-        []
-      ]
-    },
-    {
-      "id": [],
-      "username": "lauren",
-      "cities": [
-        []
-      ]
-    },
-    {
-      "id": "a309678b-5112-4427-9953-5fdd95ad0cd8",
-      "username": "sam",
-      "cities": [
-        []
-      ]
-    },
-    {
-      "username": "me",
-      "cities": [
-        []
-      ],
-      "id": "zS7KXwA"
-    },
-    {
-      "id": "you",
-      "username": "you",
+      "id": "toddy",
+      "username": "toddy",
       "cities": []
     },
     {
-      "id": "me",
-      "username": "me",
+      "id": "denver",
+      "username": "denver",
       "cities": []
     },
     {
-<<<<<<< HEAD
-      "id": "damian",
-      "username": "damian",
+      "id": "block",
+      "username": "block",
+      "cities": []
+    },
+    {
+      "id": "bobbii",
+      "username": "bobbii",
+      "cities": []
+    },
+    {
+      "id": "georgino",
+      "username": "georgino",
+      "cities": []
+    },
+    {
+      "id": "Vinod",
+      "username": "Vinod",
+      "cities": []
+    },
+    {
+      "id": "Brodie",
+      "username": "Brodie",
+      "cities": []
+    },
+    {
+      "id": "cole",
+      "username": "cole",
+      "cities": []
+    },
+    {
+      "id": "rex",
+      "username": "rex",
+      "cities": []
+    },
+    {
+      "id": "Bob",
+      "username": "Bob",
+      "cities": []
+    },
+    {
+      "id": "Queen Bee",
+      "username": "Queen Bee",
+      "cities": []
+    },
+    {
+      "id": "bb",
+      "username": "bb",
+      "cities": []
+    },
+    {
+      "id": "trecla",
+      "username": "trecla",
       "cities": [
         "seattle",
-        "dallas"
+        "seattle"
       ]
     },
     {
-      "id": "please work",
-      "username": "please work",
+      "id": "greg",
+      "username": "greg",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "tedddddy",
+      "username": "tedddddy",
       "cities": [
         "denver",
         "seattle"
       ]
     },
     {
-      "id": "bobbio",
-      "username": "bobbio",
+      "id": "qeut",
+      "username": "qeut",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "qwert",
+      "username": "qwert",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "ytree",
+      "username": "ytree",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "vov",
+      "username": "vov",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "wow",
+      "username": "wow",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "vob",
+      "username": "vob",
+      "cities": [
+        "denver"
+      ]
+    },
+    {
+      "id": "pleassseeee",
+      "username": "pleassseeee",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "qws",
+      "username": "qws",
+      "cities": [
+        "denver",
+        "seattle"
+      ]
+    },
+    {
+      "id": "erre",
+      "username": "erre",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "qxx",
+      "username": "qxx",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "qbbb",
+      "username": "qbbb",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "rere",
+      "username": "rere",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "reeeee",
+      "username": "reeeee",
+      "cities": [
+        "seattle"
+      ]
+    },
+    {
+      "id": "rererere",
+      "username": "rererere",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "bbbb",
+      "username": "bbbb",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "ervb",
+      "username": "ervb",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "queeb",
+      "username": "queeb",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "plooo",
+      "username": "plooo",
+      "cities": []
+    },
+    {
+      "id": "crrrr",
+      "username": "crrrr",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "ererere",
+      "username": "ererere",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "california",
+      "username": "california",
       "cities": [
         "seattle",
         "denver",
+        "california"
+      ]
+    },
+    {
+      "id": "grrrrreeg",
+      "username": "grrrrreeg",
+      "cities": [
+        "denver",
+        "seattle",
         "dallas"
       ]
     },
     {
-      "id": "bobbioroni",
-      "username": "bobbioroni",
-=======
-      "id": "nessa",
-      "username": "nessa",
->>>>>>> 6bbf57c3b445ce2f55fb4acb99eb9468bc81971f
+      "id": "iuoiuxdhg",
+      "username": "iuoiuxdhg",
       "cities": []
+    },
+    {
+      "id": "rtttr",
+      "username": "rtttr",
+      "cities": [
+        "dallas",
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "werere",
+      "username": "werere",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "wervbn",
+      "username": "wervbn",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "bvnvn",
+      "username": "bvnvn",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "ccbbb",
+      "username": "ccbbb",
+      "cities": [
+        "georgia",
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "brbrbs",
+      "username": "brbrbs",
+      "cities": [
+        "seattle",
+        "denver"
+      ]
+    },
+    {
+      "id": "sdfasdfv",
+      "username": "sdfasdfv",
+      "cities": [
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "asdvha;sv",
+      "username": "asdvha;sv",
+      "cities": [
+        "seattle",
+        "dallas"
+      ]
+    },
+    {
+      "id": "vbro",
+      "username": "vbro",
+      "cities": [
+        "seattle",
+        "kansas"
+      ]
+    },
+    {
+      "id": "hey yerrerer",
+      "username": "hey yerrerer",
+      "cities": [
+        "seattle",
+        "dallas"
+      ]
     }
   ]
 }

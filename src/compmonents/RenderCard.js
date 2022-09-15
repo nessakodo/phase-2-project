@@ -55,12 +55,6 @@ export default function RenderCard( {weather} ) {
 }
 
 
-{/* <div>
-<p>
-   {weather.query} is Not a Valid City
-</p>
-</div> */}
-
 
 
 
