@@ -51,6 +51,11 @@
       "id": "me",
       "username": "me",
       "cities": []
+    },
+    {
+      "id": "nessa",
+      "username": "nessa",
+      "cities": []
     }
   ]
 }
