@@ -9,6 +9,8 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
     cities: [],
   });
 
+  const [ loginError, setLoginError] = useState(null)
+
   // updating the user's input as they type...
   function handleChange(e) {
     setUserData({
@@ -24,7 +26,7 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
       id: userData.username,
       username: userData.username,
       cities: []
-      }
+    }
 
       onCurrentUser(newUser)
 
@@ -36,19 +38,27 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
         body: JSON.stringify(newUser),
       })
         .then((r) => r.json())
-        .then((newUser) => onAddUser(newUser));
-
-        // need to add catch for if username is already taken
-
-        onHasLoggedIn()
-
+        .then((newUser) => {
+          onAddUser(newUser)
+          setLoginError(false)
+          onHasLoggedIn()
+        })
+        .catch(() => {
+          console.log('ahhhhh!')
+          setLoginError(true)
+          console.log(loginError)
+        });
         document.getElementById("login-form").reset();
-
   };
 
   return (
     <div>
-      <h2>Please Enter Username to Login and Save Cities!</h2>
+
+      {loginError ? 
+        <h2>Username Already Taken, Please Submit a Different One!</h2>
+      : 
+        <h2>Please Enter Username to Login and Save Cities!</h2>
+      }
       <form id="login-form" onSubmit={handleSubmit}>
         <label>
           <input 
@@ -63,3 +73,8 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
     </div>
   );
 }
+
+
+
+
+

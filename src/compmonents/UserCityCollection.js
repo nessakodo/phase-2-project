@@ -13,31 +13,12 @@ export default function UserCityCollection({cityList }) {
     if (cityList) {
         cityList.map((eachCity) => {
             useEffect(() => {
-                console.log(eachCity)
                 fetch(`https://weatherdbi.herokuapp.com/data/weather/${eachCity}`)
                 .then(res => res.json())
                 .then(data => setAllWxData(allWxData=>[...allWxData, data]))
             },[])
         })
     }
-
-        // useEffect(() => {
-        //     console.log(`wx before map: ${allWxData}`)
-        //     cityList.map((eachCity) =>
-        //         fetch(`https://weatherdbi.herokuapp.com/data/weather/${eachCity}`)
-        //             .then(res => res.json())
-        //             .then(data => {
-        //                 console.log(data)
-        //                 setAllWxData(allWxData=>[...allWxData, data])
-        //                 setTimeout(() => console.log(allWxData), 2000)
-                    
-        //             })
-
-        //     )
-        // },[])
-        // console.log(allWxData)
-
-    
 
     return (
         <div>
@@ -55,10 +36,5 @@ export default function UserCityCollection({cityList }) {
     )
 }
 
-
-    // // adds the wx data from the most recent city to the "all city wx" data base
-    // useEffect(() => {
-    //     setAllWxData([...allWxData, weatherData])
-    // }, [weatherData]);
 
 

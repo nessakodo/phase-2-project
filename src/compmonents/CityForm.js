@@ -6,6 +6,9 @@ export default function CityForm({onFreshCityDrama}) {
     // state variable to keep track of city being inputted
     const [freshCity, setFreshCity] = useState('')
 
+    // state variable to be one behind freshCity
+    const [thisCity, setThisCity] = useState('')
+
     // true if the current city is valid or not
     const [cityIsValid, setCityIsValid] = useState(true)
 
@@ -27,6 +30,7 @@ export default function CityForm({onFreshCityDrama}) {
                 onFreshCityDrama(formattedCity)
             } else {
                 setCityIsValid(false)
+                setThisCity(freshCity)
             }
         })
 
@@ -43,7 +47,7 @@ export default function CityForm({onFreshCityDrama}) {
         </form>
         {cityIsValid ? 
             null : 
-            <p>{freshCity} is Not a Valid Input, Please Try Again!</p>
+            <p>{thisCity} is Not a Valid Input, Please Try Again!</p>
         }
     </div>
     )
