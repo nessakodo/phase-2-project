@@ -11,19 +11,19 @@ const wind = weather.currentConditions["wind"]["mile"]
 function tempCard () {
     if (temp < 0) {
         return "You should run on a treadmill inside! It's awfully cold to run outside today.";
-    } else if (temp > 0 && temp  < 19) {
+    } else if (temp >= 0 && temp  < 19) {
         return "Wear two/three upper-body layers and one/two lower body layers. Bring your hat and gloves!";
-    } else if (temp > 19 && temp  < 29) {
+    } else if (temp >= 19 && temp  < 29) {
         return "Wear two upper-body layers and tights. Consider a hat and gloves.";
-    } else if (temp > 30 && temp  < 39) {
+    } else if (temp >= 30 && temp  < 39) {
         return "Wear a long-sleeved shirt and tights.";
-    } else if (temp > 40 && temp  < 49) {
+    } else if (temp >= 40 && temp  < 49) {
         return "Wear a long-sleeved shirt and tights or shorts.";
-    } else if (temp > 50 && temp  < 59) {
+    } else if (temp >= 50 && temp  < 59) {
         return "Wear a t-shirt with shorts.";
-    } else if (temp > 60 && temp < 69) {
+    } else if (temp >= 60 && temp < 69) {
         return "Wear a tank top or t-shirt with shorts.";
-    } else if (temp > 70) {
+    } else if (temp >= 70) {
         return "Wear a tank top with shorts, preferably light colored.";
     } else {
         return

@@ -53,6 +53,7 @@
       "cities": []
     },
     {
+<<<<<<< HEAD
       "id": "damian",
       "username": "damian",
       "cities": [
@@ -80,6 +81,10 @@
     {
       "id": "bobbioroni",
       "username": "bobbioroni",
+=======
+      "id": "nessa",
+      "username": "nessa",
+>>>>>>> 6bbf57c3b445ce2f55fb4acb99eb9468bc81971f
       "cities": []
     }
   ]
