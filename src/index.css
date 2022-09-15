@@ -51,14 +51,8 @@ code {
 
 
 .submit {
-background-image: url("assets/check-circle.svg"); 
-background-position: center;
-width: 40px;
-height: 40px;
-margin-left: 8px;
-background-size: cover;
+background-color: transparent;
 border: none;
-vertical-align: middle;
 }
 
 .running-image {
@@ -74,4 +68,18 @@ header h1 {
   align-content: center;
   margin-bottom: 0px;
   /* text-shadow: 4px 4px 4px #000000c2; */
+}
+
+.weatherCardFront {
+  background-color: rgba(255, 255, 255, 0.598); 
+  border-radius: 30px;
+
+  
+
+}
+
+.weatherCardBack {
+  background-color: rgba(255, 255, 255, 0.598); 
+  border-radius: 30px;
+
 }

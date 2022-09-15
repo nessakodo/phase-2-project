@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import check from "../assets/check-circle.svg"
 
 
 export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, currentUser, cityList }) {
@@ -31,7 +32,7 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
                 onFreshCityListDrama(freshCity)
 
                 const thisUser = currentUser.id
-
+                
                 fetch(`http://localhost:4000/users/${thisUser}`, {
                     method: 'PATCH',
                     headers: {'Content-Type': 'application/json'},
@@ -55,7 +56,9 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
             <label>
                 <input type="text" name="name" onChange={handleChange} className="input-text"/>
             </label>
-            <img type="submit" value="" className="submit"/>
+            <button type="submit" className="submit">
+                <img src={check}/>
+            </button>
         </form>
         {cityIsValid ? 
             null : 

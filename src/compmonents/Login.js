@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import check from "../assets/check-circle.svg"
 
 
 export default function Login({onAddUser, onCurrentUser} ) {
@@ -51,7 +52,9 @@ export default function Login({onAddUser, onCurrentUser} ) {
         <label>
           <input type="text" name="username" onChange={handleChange} className="input-text"/>
         </label>
-        <img type="submit" value="" className="submit"/>
+        <button type="submit" className="submit">
+          <img src={check}/>
+        </button>
       </form>{!null ? 
             null : 
             <p>Not a Valid Input, Please Try Again!</p>
