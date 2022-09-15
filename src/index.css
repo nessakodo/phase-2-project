@@ -2,9 +2,9 @@
 
 body {
   margin: 1rem;
-  margin-left: 9rem;
-  margin-right: 9rem;
-  margin-bottom: 9rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
   font-family:'Poppins',
     sans-serif;
   text-align: center;
@@ -15,18 +15,14 @@ body {
   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 .navbar {
-  display: flexbox;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   border-radius: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  font-size: small;
 }
 
 .links {
@@ -38,21 +34,22 @@ code {
 .input-text {
 
   background-color: rgba(255, 255, 255, 0.251);
-  padding: 20px;
-  width: 35%;
+  padding: 10px;
+  width: 25%;
   justify-content: center;
   border-radius: 30px;
   border: none;
   margin-right: 8px;
   vertical-align: top;
+  margin-bottom: 20px;
 
 }
-
 
 
 .submit {
 background-color: transparent;
 border: none;
+
 }
 
 .running-image {
@@ -61,12 +58,49 @@ border: none;
 }
 
 header h1 {
-  font-size: 3.5em;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 1200;
   text-align: center;
-  padding: 2rem;
+  padding: .5rem;
   align-content: center;
   margin-bottom: 0px;
+  margin-top: 0px;
   /* text-shadow: 4px 4px 4px #000000c2; */
 }
 
+h2 {
+  margin: 0px;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+.panel {
+
+  background-color: rgba(255, 255, 255, 0.238); 
+  border-radius: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  backdrop-filter: blur(20px);
+
+}
+
+.weather-card {
+  transition: 500ms ease all;
+}
+
+.switch {
+  background-color: rgba(16, 170, 170, 0.271);
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: medium;
+  padding: 12px;
+}
+
+.card-images img {
+  height: 230px;
+}
