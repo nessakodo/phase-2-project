@@ -2,8 +2,9 @@ import React, {useState} from 'react'
 import check from "../assets/check-circle.svg"
 
 
-export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, currentUser, cityList }) {
+export default function CityForm({onFreshCityDrama}) {
     
+    // state variable to keep track of city being inputted
     const [freshCity, setFreshCity] = useState('')
 
     // true if the current city is valid or not
@@ -16,39 +17,23 @@ export default function CityForm({ onFreshCityDrama, onFreshCityListDrama, curre
     }
 
     function handleFreshSubmit(e) {
-
         e.preventDefault()
-
         thisCity = freshCity
 
         fetch(`https://weatherdbi.herokuapp.com/data/weather/${freshCity}`)
         .then(res => res.json())
         .then (data => {
             if (data.region) {
-
                 setCityIsValid(true)
-
                 onFreshCityDrama(freshCity.toLowerCase())
-                onFreshCityListDrama(freshCity)
-
-                const thisUser = currentUser.id
-                
-                fetch(`http://localhost:4000/users/${thisUser}`, {
-                    method: 'PATCH',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({
-                        cities: [...cityList, thisCity]
-                    })
-                })
-
             } else {
                 setCityIsValid(false)
             }
-        
         })
 
         document.getElementById('freshCityForm').reset()
     }
+
 
     return (
     <div id="form-container">

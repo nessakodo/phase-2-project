@@ -13,7 +13,7 @@ export default function RenderCard( {weather} ) {
    const temp = parseInt(weather.currentConditions["temp"]["f"])
    const wind = weather.currentConditions["wind"]["mile"]
       const weatherCardFront = (
-         <div className="weatherCardFront">
+         <div>
             <h2>{weather.region}</h2>
                <p>{dayhour} </p>
                <img
@@ -30,7 +30,7 @@ export default function RenderCard( {weather} ) {
             </div>
       )
       const weatherCardBack = (
-         <div className="weatherCardBack">
+         <div>
                <h2>What should you wear for your run today?</h2>
                <ClothingLogic
                   weather={weather}
@@ -45,7 +45,7 @@ export default function RenderCard( {weather} ) {
       )
       return (
          <div onClick={() => setIsClicked(!isClicked)}>
-         {isClicked ? weatherCardBack : weatherCardFront}
+            {isClicked ? weatherCardBack : weatherCardFront}
          </div>
     );
    }

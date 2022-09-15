@@ -2,19 +2,23 @@ import React, { useState } from "react";
 import check from "../assets/check-circle.svg"
 
 
-export default function Login({onAddUser, onCurrentUser} ) {
 
+export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
+
+  // state variable for form input data (just username @ this time)
   const [ userData, setUserData ] = useState({
     username: '',
     cities: [],
   });
 
+  // updating the user's input as they type...
   function handleChange(e) {
     setUserData({
         ...userData, [e.target.name]: e.target.value,
       });
   }
 
+  // once submit their name, posts their username//id to our json server with empty fav cities array
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -38,7 +42,8 @@ export default function Login({onAddUser, onCurrentUser} ) {
 
         // need to add catch for if username is already taken
 
-    
+        onHasLoggedIn()
+
         document.getElementById("login-form").reset();
 
   };
