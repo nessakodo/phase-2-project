@@ -1,4 +1,5 @@
 import React from "react";
+import RunningChart from "../assets/RunningChart.JPG";
 
 export default function AboutPage() {
 
@@ -15,7 +16,7 @@ return (
         <p>Welcome to our page!
         We are a group of female software engineers living in Denver, CO who love to be active.
         </p>
-        <img src="/src/assets/RunningChart.JPG" alt="Running Chart" />
+        <img src={RunningChart} alt="Running Chart" width="300px" />
         </div>
 
         <div>

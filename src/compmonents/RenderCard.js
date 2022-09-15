@@ -45,7 +45,7 @@ export default function RenderCard( {weather} ) {
       )
       return (
          <div onClick={() => setIsClicked(!isClicked)}>
-            {isClicked ? weatherCardBack : weatherCardFront}
+         {isClicked ? weatherCardBack : weatherCardFront}
          </div>
     );
    }
