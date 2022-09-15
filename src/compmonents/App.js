@@ -6,6 +6,7 @@ import Header from "./Header";
 import WeatherCard from "./WeatherCard"
 import AboutPage from "./AboutPage"
 import ProfileCard from "./ProfileCard"
+import UserCityCollection from "./UserCityCollection"
 
 import "../index.css"
 
@@ -37,6 +38,8 @@ export default function App() {
           onCurrentUser={(newUser)=>setCurrentUser(newUser)}
           currentUser={currentUser}
           />
+        <Route exact path="/cities"></Route>
+        <UserCityCollection />
 
         </Route>
     

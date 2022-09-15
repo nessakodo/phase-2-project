@@ -45,6 +45,16 @@ export default function NavBar() {
         >
           Profile
         </NavLink>
+        <NavLink
+          to="/cities"
+          exact
+          style={linkStyles}
+          activeStyle={{
+            background: "darkblue",
+          }}
+        >
+          My Cities
+        </NavLink>
       </div>
     );
   }
