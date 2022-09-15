@@ -20,6 +20,7 @@ return (
         </div>
 
         <div>
+            <br></br>
         <strong>Attributions & Inspiration</strong>
         <p>Inspiration for this site came from a very old Runner's World magazine article, <a href = "https://www.runnersworld.com/training/a20803133/what-to-wear/"> a lso available digitally</a>.
         During our research for this project, we also found <a href = "https://dressmyrun.com/">DressMyRun.com</a>, which took much of our ideas and executed them!
