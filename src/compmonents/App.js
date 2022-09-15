@@ -13,7 +13,6 @@ import "../index.css"
 
 export default function App() {
 
-
 // all users -> probs don't need unless taking login to the next level (might be useful for the catch)
 const [ users, setUsers ] = useState([]);
 
@@ -23,6 +22,7 @@ const [currentUser, setCurrentUser ] = useState('')
 // list of all of CURRENT USER'S of user's cities
 const [ cityList, setCityList ] = useState([])
 
+// determines if the user has logged in yet or not
 const [hasLoggedIn, setHasLoggedIn] = useState(false)
 
  
