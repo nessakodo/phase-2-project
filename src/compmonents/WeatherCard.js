@@ -3,7 +3,7 @@ import {v4 as uuid} from "uuid";
 import CityForm from "./CityForm";
 import RenderCard from "./RenderCard";
 
-export default function WeatherCard () {
+export default function WeatherCard ( { isClicked, setIsClicked }) {
 
    // wx data for one city
    const [ weatherData, setWeatherData ] = useState({});
@@ -36,10 +36,8 @@ export default function WeatherCard () {
           <div>
             <h2>Enter a City:</h2>
             <CityForm
-           
               onFreshCityListDrama={(freshCity)=>setCityList([...cityList, freshCity])}
               onFreshCityDrama={(freshCity) => setCurrentCity(freshCity)}
-              // currentUser={currentUser}
               cityList={cityList}
             />
 
@@ -47,6 +45,7 @@ export default function WeatherCard () {
               <RenderCard
                 key={uuid()}
                 weather={eachCity}
+                
               />
             )}
           </div> 

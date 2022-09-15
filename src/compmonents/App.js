@@ -17,10 +17,9 @@ export default function App() {
   const [ users, setUsers ] = useState([]);
 
    // most recent user
-   const [currentUser, setCurrentUser ] = useState('')
+  const [currentUser, setCurrentUser ] = useState('')
   
 
- 
  return (
     
     <div>
@@ -36,7 +35,9 @@ export default function App() {
           <ProfileCard 
           onAddUser={(newUser)=>setUsers([...users, newUser])}
           onCurrentUser={(newUser)=>setCurrentUser(newUser)}
-          currentUser={currentUser}/>
+          currentUser={currentUser}
+          />
+
         </Route>
     
   </Switch>

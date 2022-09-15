@@ -8,152 +8,54 @@
       ]
     },
     {
-      "id": "shelby",
+      "id": "9eccece2-2760-413b-b7fc-7639e3a96bb0",
+      "username": "person",
+      "cities": [
+        []
+      ]
+    },
+    {
+      "id": "27ee89a9-6c87-44c4-96a9-019e8e24178a",
       "username": "shelby",
       "cities": [
         []
       ]
     },
     {
-      "id": "edwardo",
-      "username": "edwardo"
-    },
-    {
-      "id": "theodore",
-      "username": "theodore",
-      "cities": null
-    },
-    {
-      "id": "bobby",
-      "username": "bobby",
-      "cities": []
-    },
-    {
-<<<<<<< HEAD
-      "id": "George",
-      "username": "George",
-      "cities": []
-    },
-    {
-      "id": "Xan",
-      "username": "Xan",
-      "cities": []
-    },
-    {
-      "id": "slee337",
-      "username": "slee337",
-      "cities": []
-    },
-    {
-      "id": "shleebles",
-      "username": "shleebles",
-      "cities": []
-    },
-    {
-      "id": "todd",
-      "username": "todd",
-      "cities": []
-    },
-    {
-      "id": "fuck",
-      "username": "fuck",
-      "cities": []
-    },
-    {
-      "id": "dude",
-      "username": "dude",
-      "cities": []
-    },
-    {
-      "id": "doooode",
-      "username": "doooode",
-      "cities": []
-    },
-    {
-      "id": "pa",
-      "username": "pa",
-      "cities": "dallas"
-    },
-    {
-      "id": "hope",
-      "username": "hope",
+      "id": [],
+      "username": "lauren",
       "cities": [
-        "Seattle",
-        "Denver",
-        "Dallas",
-        "Moscow",
-        "Bob"
+        []
       ]
     },
     {
-      "id": "Dudette",
-      "username": "Dudette",
+      "id": "a309678b-5112-4427-9953-5fdd95ad0cd8",
+      "username": "sam",
       "cities": [
-        "Bob",
-        "taiwan",
-        "norway"
+        []
       ]
     },
     {
-      "id": "another tester",
-      "username": "another tester",
-      "cities": [
-        "denver",
-        "seattle",
-        "dallas"
-      ]
-    },
-    {
-      "id": "bob",
-      "username": "bob",
-      "cities": []
-    },
-    {
-      "id": "b",
-      "username": "b",
-      "cities": [
-        "denver",
-        "dallas",
-        "seattle"
-      ]
-    },
-    {
-      "username": "Tallulah",
+      "username": "me",
       "cities": [
         []
       ],
-      "id": "3C6sVva"
+      "id": "zS7KXwA"
     },
     {
-      "id": "fuckkkkkk",
-      "username": "fuckkkkkk",
+      "id": "you",
+      "username": "you",
       "cities": []
     },
     {
-      "id": "nanacy",
-      "username": "nanacy",
+      "id": "me",
+      "username": "me",
       "cities": []
     },
     {
-      "id": "damian",
-      "username": "damian",
-      "cities": [
-        "seattle",
-        "dallas"
-      ]
-    },
-    {
-      "id": "please work",
-      "username": "please work",
-      "cities": [
-        "denver",
-        "seattle"
-      ]
-=======
-      "id": "sam",
-      "username": "sam",
+      "id": "nessa",
+      "username": "nessa",
       "cities": []
->>>>>>> nessa
     }
   ]
 }

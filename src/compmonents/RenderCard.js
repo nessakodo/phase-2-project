@@ -25,7 +25,7 @@ export default function RenderCard( {weather} ) {
                <p>Humidity: {humidity}</p>
                <p>Chance of Precipitation: {precip}</p>
                <p>Wind: {wind} mph </p>
-               {/* <button> View your recommended outfit! </button> */}
+               <button> View your recommended outfit</button>
                <hr></hr>
             </div>
       )
@@ -39,6 +39,7 @@ export default function RenderCard( {weather} ) {
                <p>humidity: {humidity}</p>
                <p>precip: {precip}</p>
                <p>wind: {wind}mph </p>
+               <button> View the current weather conditions</button>
          </div>
 
       )

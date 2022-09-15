@@ -5,7 +5,7 @@ export default function AboutPage() {
 return (
     <div>
         <div>
-            <h2>ABOUT PAGE: Happy running!</h2>
+            <h2>Happy Running!</h2>
         
         <p><em>“For me, running is both exercise and a metaphor. Running day after day, piling up the races, bit by bit I raise the bar, and by clearing each level I elevate myself. At least that's why I've put in the effort day after day: to raise my own level. I'm no great runner, by any means. I'm at an ordinary - or perhaps more like mediocre-level. But that's not the point. The point is whether or not I improved over yesterday. In long-distance running the only opponent you have to beat is yourself, the way you used to be.” 
             <br></br>― Haruki Murakami, What I Talk About When I Talk About Running</em></p>
