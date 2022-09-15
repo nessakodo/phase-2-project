@@ -21,10 +21,11 @@ return (
 
         <div>
         <p>Attributions & Inspiration</p>
-        Inspiration for this site came from a very old Runner's World magazine article, <a href = "https://www.runnersworld.com/training/a20803133/what-to-wear/"> also available digitally</a>.
+        <p>Inspiration for this site came from a very old Runner's World magazine article, <a href = "https://www.runnersworld.com/training/a20803133/what-to-wear/"> a lso available digitally</a>.
         During our research for this project, we also found <a href = "https://dressmyrun.com/">DressMyRun.com</a>, which took much of our ideas and executed them!
         Weather forcast data is powered by <a href="https://weatherdbi.herokuapp.com/documentation/v1">weatherDB</a>.
         This app was built using <a href="https://reactjs.org/">React</a> and styled with ...
+        </p>
         
         </div>
         <hr></hr>

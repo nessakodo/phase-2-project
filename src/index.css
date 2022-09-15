@@ -58,6 +58,7 @@ height: 40px;
 margin-left: 8px;
 background-size: cover;
 border: none;
+vertical-align: middle;
 }
 
 .running-image {

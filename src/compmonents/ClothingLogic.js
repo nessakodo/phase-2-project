@@ -1,30 +1,61 @@
-import React from 'react'
+import React from 'react';
+import Zero from "../assets/Zero.png";
+import Nineteen from "../assets/Nineteen.png";
+import TwentyNine from "../assets/TwentyNine.png";
+import ThirtyNine from "../assets/ThirtyNine.png";
+import FortyNine from "../assets/FortyNine.png";
+import FiftyNine from "../assets/FiftyNine.png";
+import SixtyNine from "../assets/SixtyNine.png";
+import Seventy from "../assets/Seventy.png";
+
 
 export default function ClothingLogic( { weather } ) {
 
 const comment = weather.currentConditions.comment
 const humidity = weather.currentConditions.humidity
-const precip = weather.currentConditions.precip
+// const precip = weather.currentConditions.precip
 const temp = parseInt(weather.currentConditions["temp"]["f"])
 const wind = weather.currentConditions["wind"]["mile"]
+
+function tempCardPics () {
+    if (temp < 0) {
+       return <img src={Zero} alt="Less than 0 clothing" />;
+    } else if (temp >= 0 && temp < 19) {
+        return <img src={Nineteen} alt="Between 0 and 19 degrees clothing" />;
+    } else if (temp >= 20 && temp < 29) {
+        return <img src={TwentyNine} alt="Between 20 and 29 degrees clothing" />;
+    } else if (temp >= 30 && temp < 39) {
+        return <img src={ThirtyNine} alt="Between 30 and 39 degrees clothing" />;
+    } else if (temp >= 40 && temp < 49) {
+        return <img src={FortyNine} alt="Between 40 and 49 degrees clothing" />;
+    } else if (temp >= 50 && temp < 59) {
+        return <img src={FiftyNine} alt="Between 50 and 59 degrees clothing" />;
+    } else if (temp >= 60 && temp < 69) {
+        return <img src={SixtyNine} alt="Between 60 and 69 degrees clothing" />;
+    } else if (temp >= 70) {
+        return <img src={Seventy} alt="Over 70 degrees clothing" />;
+    } else {
+        return
+    }
+}
 
 function tempCard () {
     if (temp < 0) {
         return "You should run on a treadmill inside! It's awfully cold to run outside today.";
-    } else if (temp >= 0 && temp  < 19) {
-        return "Wear two/three upper-body layers and one/two lower body layers. Bring your hat and gloves!";
-    } else if (temp >= 19 && temp  < 29) {
+    } else if (temp >= 0 && temp < 19) {
+        return  "Wear two/three upper-body layers and one/two lower body layers. Bring your hat and gloves!";
+    } else if (temp >= 20 && temp < 29) {
         return "Wear two upper-body layers and tights. Consider a hat and gloves.";
-    } else if (temp >= 30 && temp  < 39) {
+    } else if (temp >= 30 && temp < 39) {
         return "Wear a long-sleeved shirt and tights.";
-    } else if (temp >= 40 && temp  < 49) {
+    } else if (temp >= 40 && temp < 49) {
         return "Wear a long-sleeved shirt and tights or shorts.";
-    } else if (temp >= 50 && temp  < 59) {
+    } else if (temp >= 50 && temp < 59) {
         return "Wear a t-shirt with shorts.";
     } else if (temp >= 60 && temp < 69) {
         return "Wear a tank top or t-shirt with shorts.";
     } else if (temp >= 70) {
-        return "Wear a tank top with shorts, preferably light colored.";
+        return  "Wear a tank top with shorts, preferably light colored.";
     } else {
         return
     }
@@ -52,7 +83,7 @@ function tempCard () {
 
 function humidityCard () {
     if (humidity < 50 && humidity > 64 && temp > 60 && temp < 79) {
-            return "It's humid today. Consider wearing lighter, breathable clothing.";
+           return "It's humid today. Consider wearing lighter, breathable clothing.";
         } else if (humidity < 65 && humidity > 74 && temp > 80 && temp < 89) {
             return "The humidity could affect your run today, making it feel much hotter. Drink lots of water and wear lighter, breathable clothing.";
         } else if (humidity < 75 && temp > 90) {
@@ -98,7 +129,7 @@ function commentCard () {
 
 function windCard () {
     if (wind > 8 && wind < 24 && temp > 40) {
-            return "It's windy! Consider wearing sunglasses to protect your eyes.";
+           return  "It's windy! Consider wearing sunglasses to protect your eyes.";
         } else if (wind > 8 && wind < 24 && temp < 41) {
         return "It's windy today! Consider wearing sunglasses to protect your eyes and extra clothing for warmth.";
         } else if (wind > 25 && wind < 38 && temp > 40) {
@@ -114,12 +145,15 @@ function windCard () {
 
 return (
     <li className="card">
+        {tempCardPics()}
+        <br></br>
+        <br></br>
         {tempCard()}
         <br></br>
         <br></br>
-        {/* {precipitationCard()}
+        {humidityCard()}
         <br></br>
-        <br></br> */}
+        <br></br>
         {commentCard()}
         <br></br>
         <br></br>
