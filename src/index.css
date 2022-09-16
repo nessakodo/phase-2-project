@@ -30,15 +30,8 @@ body {
   /* color: rgb(255, 255, 255); */
   /* background-image: url("assets/solid.png"); */
   background-size: cover;
-<<<<<<< HEAD
-  background-repeat: none;
-  align-items: center;
-  
-  
-=======
   /* background-image: url("assets/HeaderPhoto.png"); */
   color: white;
->>>>>>> 9248b5feaf3536cf7ac5aa6df27509c828c6cf14
 }
 
 .navBar {
@@ -124,13 +117,8 @@ a {
   vertical-align: top;
   margin-top: 20px;
   margin-bottom: 20px;
-<<<<<<< HEAD
-  justify-content: center;
-
-=======
   transition: all 0.2s;
   box-sizing: border-box;
->>>>>>> 9248b5feaf3536cf7ac5aa6df27509c828c6cf14
 }
 
 .submit {
@@ -204,29 +192,6 @@ a {
 }
 
 .city-list {
-<<<<<<< HEAD
-/* text-align: center; */
-display: grid;
-grid-gap: 10rem;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-max-width: 100%;
-margin-left: 0rem;
-margin-right: 4rem;
-
-}
-
-/* .data-card {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 140px));
-  max-width: 800px;
-  text-align: center;
-display: flex;
-flex-direction: row;
-margin-left: auto;
-margin-right: auto;
-} */
-=======
     /* text-align: center; */
   display: grid;
   grid-gap: 10rem;
@@ -275,4 +240,3 @@ margin-right: auto;
   justify-content: center;
   grid-auto-flow: column;
 }
->>>>>>> 9248b5feaf3536cf7ac5aa6df27509c828c6cf14
