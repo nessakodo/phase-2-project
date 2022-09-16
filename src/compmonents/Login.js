@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import check from "../assets/check-circle.svg";
 
 
 export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
@@ -68,8 +69,13 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
             placeholder="username"
           />
         </label>
-        <input type="submit" value="Login" />
-      </form>
+        <button type="submit" className="submit">
+          <img src={check}/>
+        </button>
+      </form>{!null ? 
+            null : 
+            <p>Not a Valid Input, Please Try Again!</p>
+        }
     </div>
   );
 }

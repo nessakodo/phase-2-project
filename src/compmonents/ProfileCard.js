@@ -7,8 +7,6 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
 
     const thisUser = currentUser.id
 
-    //const [cityFormatted, setCityFormatted] = useState("")
-
     function handleNewCity(formattedCity) {
         onAddUserCities(formattedCity)
             fetch(`http://localhost:4000/users/${thisUser}`, {
@@ -27,7 +25,6 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
             <p>Welcome, {thisUser}!</p>
             <p>Add Your Favorite Cities:</p>
             <CityForm
-                //onCityFormatSet={(formattedCity) => setCityFormatted(formattedCity)}
                 onFreshCityDrama={(formattedCity) => handleNewCity(formattedCity)}
             />
             <p>Your Favorite Cities:</p>

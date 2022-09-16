@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import check from "../assets/check-circle.svg";
 
 
 export default function CityForm({onFreshCityDrama}) {
@@ -38,12 +39,14 @@ export default function CityForm({onFreshCityDrama}) {
     }
 
     return (
-    <div>
+    <div id="form-container">
         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
             <label>
-                <input type="text" name="name" onChange={handleChange} />
+                <input type="text" name="name" onChange={handleChange} className="input-text"/>
             </label>
-            <input type="submit" value="Submit"/>
+            <button type="submit" className="submit">
+                <img src={check}/>
+            </button>
         </form>
         {cityIsValid ? 
             null : 

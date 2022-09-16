@@ -7,12 +7,11 @@ export default function Header() {
 
   return (
     
-    <div className="login" >
+    <div className="header" >
     <header>
       <h1>
       What's The Weather Like Today? 
       <br/>
-        <span className="logo" role="img">🌄❄️☔🌞</span>
       </h1>
       <div>
       <NavBar />
