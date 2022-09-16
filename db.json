@@ -305,6 +305,88 @@
         "Reno, NV",
         "Las Vegas, NV"
       ]
+    },
+    {
+      "id": "shelby",
+      "username": "shelby",
+      "cities": [
+        "Denver, CO",
+        "Moscow, Russia",
+        "Des Moines, IA"
+      ]
+    },
+    {
+      "id": "cass",
+      "username": "cass",
+      "cities": [
+        "Denver, CO",
+        "Des Moines, IA",
+        "Moscow, Russia"
+      ]
+    },
+    {
+      "id": "sam",
+      "username": "sam",
+      "cities": [
+        "Denver, CO",
+        "Des Moines, IA",
+        "Cleveland, OH"
+      ]
+    },
+    {
+      "id": "erica",
+      "username": "erica",
+      "cities": [
+        "Denver, CO",
+        "Des Moines, IA",
+        "Moscow, Russia"
+      ]
+    },
+    {
+      "id": "steven",
+      "username": "steven",
+      "cities": []
+    },
+    {
+      "id": "ben",
+      "username": "ben",
+      "cities": [
+        "Denver, CO",
+        "Moscow, Russia",
+        "Moscow, Russia",
+        "Ed, Sweden"
+      ]
+    },
+    {
+      "id": "ed",
+      "username": "ed",
+      "cities": []
+    },
+    {
+      "id": "chase",
+      "username": "chase",
+      "cities": [
+        "Denver, CO",
+        "Moscow, Russia",
+        "Rome, Metropolitan City of Rome, Italy"
+      ]
+    },
+    {
+      "id": "jaycee",
+      "username": "jaycee",
+      "cities": [
+        "Denver, CO",
+        "Moscow, Russia"
+      ]
+    },
+    {
+      "id": "yesenya",
+      "username": "yesenya",
+      "cities": [
+        "Denver, CO",
+        "Denver, CO",
+        "Moscow, Russia"
+      ]
     }
   ]
 }

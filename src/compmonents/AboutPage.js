@@ -15,7 +15,7 @@ return (
         <div className="box">
             <img src={RunningChart} alt="Running Chart" className="running-image"/>
          <div className="about-us">
-            <h2>Attributions & Inspiration</h2>
+            <h2>ATTRIBUTIONS & INSPIRATION</h2>
             <p>Inspiration for this site came from a very old Runner's World magazine article (left), <a href = "https://www.runnersworld.com/training/a20803133/what-to-wear/"> also available digitally</a>.
             <br></br><br></br>During our research for this project, we also found <a href = "https://dressmyrun.com/">DressMyRun.com</a>, which took much of our ideas and executed them! We wanted to make something prettier.
             <br></br><br></br>Weather forcast data is powered by <a href="https://weatherdbi.herokuapp.com/documentation/v1">weatherDB</a>.
