@@ -177,6 +177,102 @@
         "Amsterdam, Netherlands",
         "Reno, NV"
       ]
+    },
+    {
+      "id": "Elise",
+      "username": "Elise",
+      "cities": [
+        "Denver, CO",
+        "Moscow, Russia"
+      ]
+    },
+    {
+      "id": "Lisa",
+      "username": "Lisa",
+      "cities": [
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "dick",
+      "username": "dick",
+      "cities": [
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "steve",
+      "username": "steve",
+      "cities": []
+    },
+    {
+      "id": "leslie",
+      "username": "leslie",
+      "cities": [
+        "Dallas, TX"
+      ]
+    },
+    {
+      "id": "Rachel",
+      "username": "Rachel",
+      "cities": [
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "linda",
+      "username": "linda",
+      "cities": [
+        "Nashville, TN",
+        "Atlanta, GA"
+      ]
+    },
+    {
+      "id": "tom",
+      "username": "tom",
+      "cities": [
+        "Des Moines, IA",
+        "Urbandale, IA"
+      ]
+    },
+    {
+      "id": "larry",
+      "username": "larry",
+      "cities": [
+        "Moscow, Russia",
+        "London, UK"
+      ]
+    },
+    {
+      "id": "luana",
+      "username": "luana",
+      "cities": [
+        "Urbandale, IA",
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "todd",
+      "username": "todd",
+      "cities": []
+    },
+    {
+      "id": "peg",
+      "username": "peg",
+      "cities": []
+    },
+    {
+      "id": "toim",
+      "username": "toim",
+      "cities": []
+    },
+    {
+      "id": "jerm",
+      "username": "jerm",
+      "cities": [
+        "Denver, CO",
+        "Houston, TX"
+      ]
     }
   ]
 }
