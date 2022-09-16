@@ -262,6 +262,21 @@
         "Lima, Peru",
         "Tokyo, Japan"
       ]
+    },
+    {
+      "id": "rachell",
+      "username": "rachell",
+      "cities": [
+        "Denver, CO",
+        "Milan, Metropolitan City of Milan, Italy",
+        "Los Angeles, CA",
+        "New York, NY",
+        "Tokyo, Japan",
+        "Beijing, China",
+        "Dallas, TX",
+        "Reno, NV",
+        "Seattle, WA"
+      ]
     }
   ]
 }
