@@ -1,5 +1,5 @@
 import React from "react";
-import RunningChart from "../assets/RunningChart.JPG";
+import RunningChart from "../assets/RunningChart.png";
 
 export default function AboutPage() {
 
