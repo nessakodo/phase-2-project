@@ -218,8 +218,8 @@ a {
   box-shadow: 0 4px 8px rgb(10 22 70 / 15%);
   background-color: #3d3c3e;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-top: 20px;
   border-radius: 30px;
   background-color: rgba(14, 230, 230, 0.373);
@@ -227,12 +227,16 @@ a {
   width: fit-content;
   display: grid;
   /* grid-gap: 1rem; */
-  grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: auto auto auto auto; */
   /* max-width: 100%; */
   display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
 }
 
 .tips-item {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  justify-content: center;
+  grid-auto-flow: column;
 }

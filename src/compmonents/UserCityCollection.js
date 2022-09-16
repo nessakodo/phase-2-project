@@ -33,6 +33,7 @@ export default function UserCityCollection({cityList }) {
             <h3><em>Visit the <a href="http://localhost:3000/profile">Profile page</a> to add cities to your account.</em></h3>
         }
         </div>
+        <br></br><br></br>
         <div class="quote">
             <p><em>“When anyone tells me I can't do anything, I'm just not listening anymore” <br></br><br></br><strong>- Florence Griffith Joyner, Olympian</strong></em></p>
         </div>
