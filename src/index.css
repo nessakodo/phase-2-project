@@ -12,6 +12,8 @@ body {
   background-image: url("assets/solid.png");
   background-size: cover;
   background-repeat: none;
+  align-items: center;
+  
   
 }
 
@@ -42,6 +44,7 @@ body {
   margin-right: 8px;
   vertical-align: top;
   margin-bottom: 20px;
+  justify-content: center;
 
 }
 
@@ -118,5 +121,24 @@ h2 {
 }
 
 .city-list {
-text-align: center;
+/* text-align: center; */
+display: grid;
+grid-gap: 10rem;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+max-width: 100%;
+margin-left: 0rem;
+margin-right: 4rem;
+
 }
+
+/* .data-card {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 140px));
+  max-width: 800px;
+  text-align: center;
+display: flex;
+flex-direction: row;
+margin-left: auto;
+margin-right: auto;
+} */

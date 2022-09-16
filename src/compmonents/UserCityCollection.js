@@ -24,7 +24,7 @@ export default function UserCityCollection({cityList }) {
         <div className="city-list">
         {cityList.length >= 1 ? 
             allWxData.map((eachCity) =>
-            <p>
+            <p className="data-card">
                 <RenderCard
                     key={uuid()}
                     weather={eachCity}
