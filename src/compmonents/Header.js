@@ -10,7 +10,7 @@ export default function Header() {
     <div>
       <header>
         <h1>
-       🌞 WEATHER THE RUN 🏃🏻‍♂️ 
+       🌞 WEATHER YOUR RUN 🏃🏻‍♂️ 
         <br/>
         </h1>
           <p><em>A weather-based app to advise your running wardrobe.</em></p>

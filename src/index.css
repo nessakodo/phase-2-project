@@ -124,7 +124,6 @@ a {
 .submit {
   background-color: transparent;
   border: none;
-  box-shadow: 0 4px 8px rgb(10 22 70 / 15%);
   cursor: pointer;
   filter: brightness(1.1);
   margin-top: 20px;
@@ -134,7 +133,7 @@ a {
   height: 400px;
   width: auto;
   padding-left: 20px;
-  margin:-px -20px -40px -40px -40px;
+  margin: -20px -40px -40px -40px;
 }
 
 .panel {
@@ -194,11 +193,13 @@ a {
 .city-list {
     /* text-align: center; */
   display: grid;
-  grid-gap: 10rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: auto auto auto;
   max-width: 100%;
-  margin-left: 0rem;
-  margin-right: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
 }
 
 .quote {
@@ -229,7 +230,6 @@ a {
   /* grid-gap: 1rem; */
   /* grid-template-columns: auto auto auto auto; */
   /* max-width: 100%; */
-  display: grid;
   justify-content: center;
   grid-auto-flow: column;
 }
