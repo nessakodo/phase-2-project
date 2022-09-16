@@ -25,27 +25,32 @@ export default function RenderCard( {weather} ) {
                <p>Humidity: {humidity}</p>
                <p>Chance of Precipitation: {precip}</p>
                <p>Wind: {wind} mph </p>
-               <button> View your recommended outfit</button>
-               <hr></hr>
+               <button className="switch"> View your recommended outfit</button>
             </div>
       )
       const weatherCardBack = (
          <div>
                <h2>What should you wear for your run today?</h2>
-               <ClothingLogic
-                  weather={weather}
+               <ClothingLogic weather={weather}/>
+               {/* <h2>{weather.region}</h2>
+               <p>{dayhour} </p>
+               <img
+                  src={weather.currentConditions.iconURL}
+                  alt={weather.currentConditions.comment}
                />
-               <p>temp: {temp}°F</p>
-               <p>humidity: {humidity}</p>
-               <p>precip: {precip}</p>
-               <p>wind: {wind}mph </p>
-               <button> View the current weather conditions</button>
+               <p>{comment} </p>
+               <p>{temp}°F</p>
+               <p>Humidity: {humidity}</p>
+               <p>Chance of Precipitation: {precip}</p>
+               <p>Wind: {wind} mph </p> */}
+               <br></br>
+               <button className="switch"> View the current weather conditions</button>
          </div>
 
       )
       return (
-         <div onClick={() => setIsClicked(!isClicked)}>
-         {isClicked ? weatherCardBack : weatherCardFront}
+         <div className="panel weather-card" onClick={() => setIsClicked(!isClicked)}>
+            {isClicked ? weatherCardBack : weatherCardFront}
          </div>
     );
    }

@@ -144,20 +144,16 @@ function windCard () {
 }
 
 return (
-    <li className="card">
-        {tempCardPics()}
-        <br></br>
+    <div className="card">
+        <div className="card-images">
+            {tempCardPics()}
+        </div>
         <br></br>
         {tempCard()}
         <br></br>
-        <br></br>
         {humidityCard()}
-        <br></br>
-        <br></br>
-        {commentCard()}
-        <br></br>
-        <br></br>
+        <strong>{commentCard()}</strong>
         {windCard()}
-    </li>
+    </div>
     );
 }
