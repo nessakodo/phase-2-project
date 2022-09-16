@@ -53,24 +53,25 @@ export default function Login({onAddUser, onCurrentUser, onHasLoggedIn} ) {
   };
 
   return (
+    <React.Fragment>
     <div>
-
       {loginError ? 
-        <h2>Username Already Taken, Please Submit a Different One!</h2>
+        <h2>Username taken. Submit a different username!</h2>
       : 
-        <h2>Please Enter Username to Login and Save Cities!</h2>
+        <h2>Enter Username to login and save your favorite cities!</h2>
       }
-      <form onSubmit={handleSubmit}  id="login-form">
+      <form onSubmit={handleSubmit} id="login-form">
         <label>
-          <input type="text" name="username" onChange={handleChange} className="input-text" placeholder="username"/>
+          <input type="text" name="username" onChange={handleChange} className="input-text" placeholder="Your Username"/>
         </label>
         <button type="submit" className="submit">
-          <img src={check}/>
+          <img src={check} alt="checkmark"/>
         </button>
       </form>{!null ? 
             null : 
-            <p>Not a Valid Input, Please Try Again!</p>
+            <p>Not a valid input. Please try again.</p>
         }
     </div>
+    </React.Fragment>
   );
 }

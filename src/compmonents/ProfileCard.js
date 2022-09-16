@@ -20,17 +20,18 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
             })
     }
 
- return (
+return (
+    <React.Fragment>
     <div>
         {hasLoggedIn ?
         <div>
             <h1>Welcome, {thisUser}!</h1>
-            <p>Add Your Favorite Cities:</p>
+            <p>Enter your favorite cities to go for a run:</p>
             <CityForm
                 //onCityFormatSet={(formattedCity) => setCityFormatted(formattedCity)}
                 onFreshCityDrama={(formattedCity) => handleNewCity(formattedCity)}
             />
-            <h2>Your Favorite Cities:</h2>
+            <h1>Your Favorite Cities:</h1>
             {cityList.map((eachCity) => 
                 <div key={uuid()}>
                     <p>{eachCity}</p>
@@ -45,8 +46,11 @@ export default function ProfileCard({ onAddUser, onCurrentUser, currentUser, onA
                 onHasLoggedIn={onHasLoggedIn}
             />
         </div>
-
     }
     </div>
- );
+            <div class="quote">
+          <p><em>“If you run, you are a runner. It doesn't matter how fast or how far. It doesn't matter if today is your first day or if you've been running for twenty years. There is no test to pass, no license to earn, no membership card to get. You just run.” <br></br><br></br><strong>― John Bingham, Marathoning for Mortals</strong></em></p>
+        </div>
+    </React.Fragment>
+    );
 }

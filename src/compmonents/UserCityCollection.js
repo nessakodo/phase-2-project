@@ -19,8 +19,9 @@ export default function UserCityCollection({cityList }) {
             },[])
         })
     }
-
     return (
+        <React.Fragment>
+        <div>
         <div className="city-list">
         {cityList.length >= 1 ? 
             allWxData.map((eachCity) =>
@@ -29,13 +30,17 @@ export default function UserCityCollection({cityList }) {
                     key={uuid()}
                     weather={eachCity}
                 />
-                </p>
-            )
-        :
-        <h2>head over to the profile page to add cities to your account!</h2>
+            ) : 
+            <h3><em>Visit the <a href="http://localhost:3000/profile">Profile page</a> to add cities to your account.</em></h3>
         }
         </div>
+        <br></br><br></br>
+        <div class="quote">
+            <p><em>“When anyone tells me I can't do anything, I'm just not listening anymore” <br></br><br></br><strong>- Florence Griffith Joyner, Olympian</strong></em></p>
+        </div>
+        </div>
+        </React.Fragment>
+        
     )
 }
-
 

@@ -13,8 +13,10 @@ export default function RenderCard( {weather} ) {
    const temp = parseInt(weather.currentConditions["temp"]["f"])
    const wind = weather.currentConditions["wind"]["mile"]
       const weatherCardFront = (
+         <React.Fragment>
          <div>
-            <h2>{weather.region}</h2>
+            <button className="switch"> View your recommended outfit</button>
+               <h2>{weather.region}</h2>
                <p>{dayhour} </p>
                <img
                   src={weather.currentConditions.iconURL}
@@ -25,12 +27,14 @@ export default function RenderCard( {weather} ) {
                <p>Humidity: {humidity}</p>
                <p>Chance of Precipitation: {precip}</p>
                <p>Wind: {wind} mph </p>
-               <button className="switch"> View your recommended outfit</button>
-            </div>
+         </div>
+         </React.Fragment>  
       )
       const weatherCardBack = (
+         <React.Fragment>
          <div>
-               <h2>What should you wear for your run today?</h2>
+               <button className="switch">View the current weather conditions.</button>
+               <h2>Here's what we recommend for your run.</h2>
                <ClothingLogic weather={weather}/>
                {/* <h2>{weather.region}</h2>
                <p>{dayhour} </p>
@@ -44,19 +48,20 @@ export default function RenderCard( {weather} ) {
                <p>Chance of Precipitation: {precip}</p>
                <p>Wind: {wind} mph </p> */}
                <br></br>
-               <button className="switch"> View the current weather conditions</button>
          </div>
-
+         </React.Fragment>
       )
+      
       return (
+         <React.Fragment>
+         <div>
          <div className="panel weather-card" onClick={() => setIsClicked(!isClicked)}>
             {isClicked ? weatherCardBack : weatherCardFront}
          </div>
+        </div>
+         </React.Fragment>
     );
    }
-   return (
-      <></>
-   );
 }
 
 

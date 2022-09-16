@@ -34,25 +34,28 @@ export default function CityForm({onFreshCityDrama}) {
                 setThisCity(freshCity)
             }
         })
-
         document.getElementById('freshCityForm').reset()
     }
 
     return (
-    <div id="form-container">
+    <React.Fragment>
+    <div>
+    <div class="form-container">
         <form onSubmit={handleFreshSubmit} id='freshCityForm'>
             <label>
-                <input type="text" name="name" onChange={handleChange} className="input-text"/>
+                <input type="text" name="name" onChange={handleChange} className="input-text" placeholder="City Name"/>
             </label>
             <button type="submit" className="submit">
-                <img src={check}/>
+                <img src={check} alt="checkmark"/>
             </button>
         </form>
-        {cityIsValid ? 
+            {cityIsValid ? 
             null : 
-            <p>{thisCity} is not a valid input, please try again!</p>
-        }
+            <p>{thisCity} is not a valid input. Please try again!</p>
+            }
+        </div>
     </div>
+    </React.Fragment>
     )
 }
 

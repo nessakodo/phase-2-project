@@ -1,48 +1,69 @@
-import React from "react";
+import React from 'react';
 import { NavLink } from "react-router-dom";
+import home from "../assets/home.svg";
+
 
 
 const linkStyles = {
+    background: "rgba(16, 170, 170, 0.271)",
     display: "inline-block",
-    width: "80px",
-    padding: "7px",
+    padding: "12px",
     margin: "0 6px 6px",
+    width: "80px",
     textDecoration: "none",
-    color: "black",
-  };
+    color: "white",
+    textAlign: "center",
+    borderRadius: "30px",
+    marginBottom: "10px",
+    fontSize: "medium",
+    boxShadow: "0 4px 8px rgb(10 22 70 / 15%)",
+  }
   
-export default function NavBar() {
-    return (
-      <div className="navbar">
+export default function NavBar ()  {
+  return (
+    <React.Fragment>
+      <div>
         <NavLink
           to="/"
           exact
           style={linkStyles}
-          activeStyle className="links"
-        >
-          Home
+          activeStyle={{
+            background: "#21005D",
+          }}
+          img src={home} 
+        >  Home
         </NavLink>
-        <NavLink className="links"
-          to="/about"
-          exact
-          style={linkStyles}
-        >
-          About
-        </NavLink>
-        <NavLink className="links"
+        <NavLink
           to="/profile"
           exact
           style={linkStyles}
+          activeStyle={{
+            background: "#21005D",
+          }}
         >
           Profile
         </NavLink>
-        <NavLink className="links"
+        <NavLink
           to="/cities"
           exact
           style={linkStyles}
+          activeStyle={{
+            background: "#21005D",
+          }}
         >
           My Cities
         </NavLink>
+        <NavLink
+          to="/about"
+          exact
+          style={linkStyles}
+          activeStyle={{
+            background: "#21005D",
+          }}
+        >
+          About
+        </NavLink>
       </div>
-    );
-  }
+    </React.Fragment>
+  );
+}

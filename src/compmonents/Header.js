@@ -1,22 +1,25 @@
 import React from "react";
 import NavBar from "./NavBar";
+import HeaderPhoto from '../assets/HeaderPhoto.png';
+
 
 export default function Header() {
 
-
-
   return (
-    
-    <div className="header" >
-    <header>
-      <h1>
-      What's The Weather Like Today? 
-      <br/>
-      </h1>
-      <div>
-      <NavBar />
+    <React.Fragment>
+    <div>
+      <header>
+        <h1>
+       🌞 WEATHER THE RUN 🏃🏻‍♂️ 
+        <br/>
+        </h1>
+          <p><em>A weather-based app to advise your running wardrobe.</em></p>
+    <div>
+      <br></br>
+      <NavBar img src={HeaderPhoto}/>
     </div>
-    </header>
+      </header>
     </div>
+    </React.Fragment>
   );
 }

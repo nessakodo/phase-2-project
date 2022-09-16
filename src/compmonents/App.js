@@ -1,15 +1,11 @@
 import React, { useState } from "react"
 import { Switch, Route } from "react-router-dom";
-
 import Header from "./Header";
-
 import WeatherCard from "./WeatherCard"
 import AboutPage from "./AboutPage"
 import ProfileCard from "./ProfileCard"
 import UserCityCollection from "./UserCityCollection"
-
 import "../index.css"
-
 
 export default function App() {
 
@@ -25,38 +21,34 @@ const [ cityList, setCityList ] = useState([])
 // determines if the user has logged in yet or not
 const [hasLoggedIn, setHasLoggedIn] = useState(false)
 
- 
  return (
-    
     <div>
-      <Header />
-      <Switch>
-      <Route exact path="/">
-            <WeatherCard />
-        </Route>
-        <Route exact path="/about">
-            <AboutPage />
-        </Route>
-        <Route exact path="/profile">
-            <ProfileCard 
-                onAddUser={(newUser)=>setUsers([...users, newUser])}
-                onCurrentUser={(newUser)=>setCurrentUser(newUser)}
-                currentUser={currentUser}
-                onAddUserCities={(freshCity)=>setCityList([...cityList, freshCity])}
-                cityList={cityList}
-                onHasLoggedIn={() => setHasLoggedIn(true)}
-                hasLoggedIn={hasLoggedIn}
-            />
-        </Route>
-        <Route exact path="/cities">
-            <UserCityCollection
-                currentUser={currentUser}
-                cityList={cityList}
-            />
-        </Route>
-    
-  </Switch>
-  </div>
-  
-  );
+        <Header />
+        <Switch>
+            <Route exact path="/">
+                <WeatherCard />
+            </Route>
+            <Route exact path="/about">
+                <AboutPage />
+            </Route>
+            <Route exact path="/profile">
+                <ProfileCard 
+                    onAddUser={(newUser)=>setUsers([...users, newUser])}
+                    onCurrentUser={(newUser)=>setCurrentUser(newUser)}
+                    currentUser={currentUser}
+                    onAddUserCities={(freshCity)=>setCityList([...cityList, freshCity])}
+                    cityList={cityList}
+                    onHasLoggedIn={() => setHasLoggedIn(true)}
+                    hasLoggedIn={hasLoggedIn}
+                />
+            </Route>
+            <Route exact path="/cities">
+                <UserCityCollection
+                    currentUser={currentUser}
+                    cityList={cityList}
+                />
+            </Route>
+        </Switch>
+    </div>
+    );
 }
