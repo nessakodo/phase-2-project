@@ -20,6 +20,8 @@ export default function UserCityCollection({cityList }) {
         })
     }
     return (
+
+        <div>
         <React.Fragment>
         <div>
         <div className="city-list">
@@ -30,7 +32,7 @@ export default function UserCityCollection({cityList }) {
                     weather={eachCity}
                 />
             ) : 
-            <h3><em>Visit the <a href="http://localhost:3000/profile">Profile page</a> to add cities to your account.</em></h3>
+            <h3 className="cities-message"><em>Visit the <a href="http://localhost:3000/profile">Profile page</a> to add cities to your account.</em></h3>
         }
         </div>
         <br></br><br></br>
@@ -39,6 +41,7 @@ export default function UserCityCollection({cityList }) {
         </div>
         </div>
         </React.Fragment>
+        </div>
         
     )
 }
