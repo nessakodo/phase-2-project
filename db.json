@@ -387,6 +387,26 @@
         "Denver, CO",
         "Moscow, Russia"
       ]
+    },
+    {
+      "id": "leader",
+      "username": "leader",
+      "cities": [
+        "Reno, NV",
+        "Denver, CO",
+        "Austin, TX"
+      ]
+    },
+    {
+      "id": "mikie",
+      "username": "mikie",
+      "cities": [
+        "Petersburg, VA",
+        "Denver, CO",
+        "Milan, Metropolitan City of Milan, Italy",
+        "Tokyo, Japan",
+        "Lima, Peru"
+      ]
     }
   ]
 }
