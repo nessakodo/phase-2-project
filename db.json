@@ -355,6 +355,27 @@
         "Denver, CO",
         "Moscow, Russia"
       ]
+    },
+    {
+      "id": "danger",
+      "username": "danger",
+      "cities": [
+        "Moscow, Russia",
+        "Moscow, ID",
+        "Paris, TX",
+        "Paris, France",
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "Sunny",
+      "username": "Sunny",
+      "cities": [
+        "Chicago, IL",
+        "Des Moines, IA",
+        "New York, NY",
+        "Binghamton, NY"
+      ]
     }
   ]
 }
