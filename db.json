@@ -179,99 +179,131 @@
       ]
     },
     {
-      "id": "Elise",
-      "username": "Elise",
+      "id": "Angela",
+      "username": "Angela",
+      "cities": [
+        "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+        "Key West",
+        "Manhattan, New York, NY"
+      ]
+    },
+    {
+      "id": "rio",
+      "username": "rio",
       "cities": [
         "Denver, CO",
-        "Moscow, Russia"
+        "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+        "Manhattan, New York, NY"
       ]
     },
     {
-      "id": "Lisa",
-      "username": "Lisa",
-      "cities": [
-        "Denver, CO"
-      ]
-    },
-    {
-      "id": "dick",
-      "username": "dick",
-      "cities": [
-        "Denver, CO"
-      ]
-    },
-    {
-      "id": "steve",
-      "username": "steve",
-      "cities": []
-    },
-    {
-      "id": "leslie",
-      "username": "leslie",
-      "cities": [
-        "Dallas, TX"
-      ]
-    },
-    {
-      "id": "Rachel",
-      "username": "Rachel",
-      "cities": [
-        "Denver, CO"
-      ]
-    },
-    {
-      "id": "linda",
-      "username": "linda",
-      "cities": [
-        "Nashville, TN",
-        "Atlanta, GA"
-      ]
-    },
-    {
-      "id": "tom",
-      "username": "tom",
-      "cities": [
-        "Des Moines, IA",
-        "Urbandale, IA"
-      ]
-    },
-    {
-      "id": "larry",
-      "username": "larry",
-      "cities": [
-        "Moscow, Russia",
-        "London, UK"
-      ]
-    },
-    {
-      "id": "luana",
-      "username": "luana",
-      "cities": [
-        "Urbandale, IA",
-        "Denver, CO"
-      ]
-    },
-    {
-      "id": "todd",
-      "username": "todd",
-      "cities": []
-    },
-    {
-      "id": "peg",
-      "username": "peg",
-      "cities": []
-    },
-    {
-      "id": "toim",
-      "username": "toim",
-      "cities": []
-    },
-    {
-      "id": "jerm",
-      "username": "jerm",
+      "id": "vanessa",
+      "username": "vanessa",
       "cities": [
         "Denver, CO",
-        "Houston, TX"
+        "Beijing, China"
+      ]
+    },
+    {
+      "id": "happi",
+      "username": "happi",
+      "cities": [
+        "Denver, CO",
+        "Portland, OR",
+        "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+        "New York, NY",
+        "New Orleans, LA"
+      ]
+    },
+    {
+      "id": "nessie",
+      "username": "nessie",
+      "cities": [
+        "Beijing, China",
+        "New York, NY",
+        "Los Angeles, CA",
+        "Denver, CO"
+      ]
+    },
+    {
+      "id": "nessaasdfadsfas",
+      "username": "nessaasdfadsfas",
+      "cities": [
+        "Denver, CO",
+        "New York, NY",
+        "Los Angeles, CA",
+        "Beijing, China"
+      ]
+    },
+    {
+      "id": "asdjkfnasdf",
+      "username": "asdjkfnasdf",
+      "cities": [
+        "Beijing, China",
+        "Denver, CO",
+        "New York, NY",
+        "Portland, OR",
+        "Tokyo, Japan",
+        "Dublin, County Dublin, Ireland"
+      ]
+    },
+    {
+      "id": "adsfadsf",
+      "username": "adsfadsf",
+      "cities": [
+        "Beijing, China",
+        "Denver, CO",
+        "Seattle, WA",
+        "Portland, OR",
+        "Paris, France",
+        "Milan, Metropolitan City of Milan, Italy",
+        "Dublin, County Dublin, Ireland",
+        "São Paulo, State of São Paulo, Brazil",
+        "Lima, Peru",
+        "Tokyo, Japan"
+      ]
+    },
+    {
+      "id": "rachell",
+      "username": "rachell",
+      "cities": [
+        "Denver, CO",
+        "Milan, Metropolitan City of Milan, Italy",
+        "Los Angeles, CA",
+        "New York, NY",
+        "Tokyo, Japan",
+        "Beijing, China",
+        "Dallas, TX",
+        "Reno, NV",
+        "Seattle, WA"
+      ]
+    },
+    {
+      "id": "rachelll",
+      "username": "rachelll",
+      "cities": [
+        "Denver, CO",
+        "Austin, TX",
+        "Seattle, WA",
+        "Reno, NV"
+      ]
+    },
+    {
+      "id": "rachellllll",
+      "username": "rachellllll",
+      "cities": [
+        "Denver, CO",
+        "Reno, NV",
+        "Honolulu, HI"
+      ]
+    },
+    {
+      "id": "ksalfdjads",
+      "username": "ksalfdjads",
+      "cities": [
+        "Denver, CO",
+        "Reno, NV",
+        "Las Vegas, NV"
       ]
     },
     {
@@ -357,6 +389,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": "danger",
       "username": "danger",
       "cities": [
@@ -375,6 +408,25 @@
         "Des Moines, IA",
         "New York, NY",
         "Binghamton, NY"
+=======
+      "id": "leader",
+      "username": "leader",
+      "cities": [
+        "Reno, NV",
+        "Denver, CO",
+        "Austin, TX"
+      ]
+    },
+    {
+      "id": "mikie",
+      "username": "mikie",
+      "cities": [
+        "Petersburg, VA",
+        "Denver, CO",
+        "Milan, Metropolitan City of Milan, Italy",
+        "Tokyo, Japan",
+        "Lima, Peru"
+>>>>>>> ad3de1a96969918b88dd6074d23a15f4a9017597
       ]
     }
   ]

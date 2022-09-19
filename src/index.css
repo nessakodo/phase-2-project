@@ -200,6 +200,10 @@ a {
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+  text-align: center;
+  justify-content: center;
+  align-self: auto;
+
 }
 
 .quote {
@@ -232,6 +236,8 @@ a {
   /* max-width: 100%; */
   justify-content: center;
   grid-auto-flow: column;
+  text-align: center;
+  align-items: center;
 }
 
 .tips-item {
@@ -240,3 +246,4 @@ a {
   justify-content: center;
   grid-auto-flow: column;
 }
+
