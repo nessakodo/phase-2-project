@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
 * {
   margin: 0;
@@ -17,13 +17,12 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(#6750A4, #e6dcdc);
+  background: linear-gradient(#6750a4, #e6dcdc);
   margin: 1rem;
   margin-left: 9rem;
   margin-right: 9rem;
   margin-bottom: 9rem;
-  font-family:'Poppins',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   align-content: center;
   align-items: center;
@@ -44,14 +43,14 @@ body {
   font-size: small;
 }
 
-.header{
+.header {
   margin-top: 20px;
-  width: 100%;  
-  background-color: rgba(139, 28, 28, 0.598); 
+  width: 100%;
+  background-color: rgba(139, 28, 28, 0.598);
 }
 
 .links {
-  background-color: #EADDFF; 
+  background-color: #eaddff;
   border-radius: 30px;
   backdrop-filter: blur(20px);
 }
@@ -61,7 +60,7 @@ header h1 {
   font-size: 50px;
   font-weight: 1000;
   text-align: center;
-  padding: .5rem;
+  padding: 0.5rem;
   align-content: center;
   margin-bottom: 0.25rem;
   padding-top: 0.25rem;
@@ -103,7 +102,7 @@ p {
 }
 
 a {
-  color:white
+  color: white;
 }
 
 .input-text {
@@ -137,7 +136,7 @@ a {
 }
 
 .panel {
-  background-color: rgba(11, 10, 10, 0.249); 
+  background-color: rgba(11, 10, 10, 0.249);
   border-radius: 30px;
   width: fit-content;
   margin-left: auto;
@@ -146,7 +145,7 @@ a {
   backdrop-filter: blur(20px);
   box-shadow: 0 4px 8px rgb(10 22 70 / 15%);
   align-content: center;
-  margin-top: 10px;;
+  margin-top: 10px;
 }
 
 .weather-card {
@@ -179,8 +178,8 @@ a {
 }
 
 .box {
-  display:flex; 
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 
 .about-us {
@@ -191,7 +190,7 @@ a {
 }
 
 .city-list {
-    /* text-align: center; */
+  /* text-align: center; */
   display: grid;
   grid-gap: 1rem;
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
@@ -203,23 +202,22 @@ a {
   text-align: center;
   justify-content: center;
   align-self: auto;
-
 }
 
 .quote {
   box-shadow: 0 4px 8px rgb(10 22 70 / 15%);
-  background-color: #21005D;
+  background-color: #21005d;
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   border-radius: 30px;
-  color:#e6dcdc;
+  color: #e6dcdc;
   backdrop-filter: blur(20px);
   width: fit-content;
 }
 
-.tips{
+.tips {
   box-shadow: 0 4px 8px rgb(10 22 70 / 15%);
   background-color: #3d3c3e;
   padding: 20px;
@@ -246,4 +244,3 @@ a {
   justify-content: center;
   grid-auto-flow: column;
 }
-
