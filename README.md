@@ -1,22 +1,24 @@
-# Weather Your Run
+# WEATHER YOUR RUN
 
 ![AppHeading](src/assets/WeatherYourRun.jpeg)
 
-- [Table of Contents](#table-of-contents)
+Table of Contents
 - [MOTIVATION](#motivation)
 - [TECH STACK](#tech-stack)
 - [USAGE & FEATURES](#usage-&-features)
-- [ROADMAP] (#roadmap)
+- [FUTURE PLANS] (#future-plans)
 - [Agile Workflow](#project-board)
 - [MAINTAINERS](#maintainers)
 
 ## MOTIVATION
-
 Our application is intended to assist users who are interested in knowing the proper apparel to wear outside given the current weather conditions according to their location and/or route of activity.
+## TECH STACK
+- External API
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+## USAGE & FEATURES
 
-## User Stories
-
-### A user will be able to...
+ A user will be able to...
 
 #### 1. See what they can wear based off of: Temperature, Humidity, Wind, and Precipitation
 
@@ -26,15 +28,12 @@ Our application is intended to assist users who are interested in knowing the pr
 
 #### 4. Add cities to a rendered card list on the home page and view their weather conditions (Patch Requirement)
 
-## Wireframe
+### Wireframe
 
 ![structure tree](src/assets/hierarchy.png)
 ![1](src/assets/1.png)
-![2](src/assets/2.png)
-![3](src/assets/3.png)
-![4](src/assets/4.png)
 
-## Learning Goals
+### Learning Goals
 
 [ ] - Build a React single page application from scratch
 <br>
@@ -44,7 +43,7 @@ Our application is intended to assist users who are interested in knowing the pr
 <br>
 [ ] - Use data from an API
 
-## Requirements
+### Requirements
 
 ### Secondary Requirements
 
@@ -70,12 +69,23 @@ Our application is intended to assist users who are interested in knowing the pr
 <br>
 [ ] - create cards for homepage and way of patching watchlist cities
 
-## BUILT WITH
-
-React
+## FUTURE PLANS
 
 ## MAINTAINERS
 
-Rachel Mullen: https://www.linkedin.com/in/racheljmullen/
-Shelby Lee: https://www.linkedin.com/in/shelby-lee-slee/
-Nessa Kodo: https://www.linkedin.com/in/nessakodo/ 
+- Rachel Mullen: https://www.linkedin.com/in/racheljmullen/
+- Shelby Lee: https://www.linkedin.com/in/shelby-lee-slee/
+- Nessa Kodo: https://www.linkedin.com/in/nessakodo/
+
+This project won an award for best use of outside tech for our cohort.
+![Outsidetech](src/assets/080822%20best%20use%20outside%20of%20tech%20award.png)
+
+- Use an agile process to turn well defined requirements into deployed and production ready software
+- Gain experience dividing applications into components and domains of responsibilities to facilitate multi-developer teams
+- Explore and implement brand new frameworks/technologies (React Native, hooks)
+- Practice an advanced, professional git workflow
+- Gain more experience using continuous integration tools to build and automate the deployment of features in various environments
+- Build applications that execute in development, test, CI, and production environments
+- Focus on communication between front end and back end teams in order to complete and deploy features
+
+Over 120 tickets (user stories, bugs, new feature and testing tickets) were converted into issues, and tracked by the entire team throughout the four week build.
