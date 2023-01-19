@@ -1,8 +1,18 @@
-# Weather Apparel App
+# Weather Your Run
 
-## Introductory Pitch
+![AppHeading](src/assets/WeatherYourRun.jpeg)
 
-Our application is intended to assist users who are interested in knowing what the proper apparel would be to wear outside given the current weather conditions according to their location and/or route of activity.
+- [Table of Contents](#table-of-contents)
+- [MOTIVATION](#motivation)
+- [TECH STACK](#tech-stack)
+- [USAGE & FEATURES](#usage-&-features)
+- [ROADMAP] (#roadmap)
+- [Agile Workflow](#project-board)
+- [MAINTAINERS](#maintainers)
+
+## MOTIVATION
+
+Our application is intended to assist users who are interested in knowing the proper apparel to wear outside given the current weather conditions according to their location and/or route of activity.
 
 ## User Stories
 
@@ -10,14 +20,11 @@ Our application is intended to assist users who are interested in knowing what t
 
 #### 1. See what they can wear based off of: Temperature, Humidity, Wind, and Precipitation
 
-#### 2. Refresh the page to see updated weather data without the input form opening up again 
-
+#### 2. Refresh the page to see updated weather data without the input form opening up again
 
 #### 3. Input their name and details to create an account (Post Requirement)
 
-
 #### 4. Add cities to a rendered card list on the home page and view their weather conditions (Patch Requirement)
-
 
 ## Wireframe
 
@@ -26,8 +33,6 @@ Our application is intended to assist users who are interested in knowing what t
 ![2](src/assets/2.png)
 ![3](src/assets/3.png)
 ![4](src/assets/4.png)
-
-
 
 ## Learning Goals
 
@@ -40,16 +45,6 @@ Our application is intended to assist users who are interested in knowing what t
 [ ] - Use data from an API
 
 ## Requirements
-
-### Immediate Requirements
-
-
-[✅] - Create GitHub repos, add all of your group members as contributors to the project, and create a 1-2 sentence pitch about your project.
-<br>
-[✅] - Create a list of user stories, this is just a statement about what your app will do.
-<br>
-[✅] - Create some wireframes for your web page.
-<br>
 
 ### Secondary Requirements
 
@@ -74,3 +69,13 @@ Our application is intended to assist users who are interested in knowing what t
 [ ] - create input form for profile page that takes in user data
 <br>
 [ ] - create cards for homepage and way of patching watchlist cities
+
+## BUILT WITH
+
+React
+
+## MAINTAINERS
+
+Rachel Mullen: https://www.linkedin.com/in/racheljmullen/
+Shelby Lee: https://www.linkedin.com/in/shelby-lee-slee/
+Nessa Kodo: https://www.linkedin.com/in/nessakodo/ 
